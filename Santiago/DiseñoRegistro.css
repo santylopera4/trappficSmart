@@ -1,0 +1,71 @@
+form {
+	width: 25%;
+	border: 1px solid #ccc;
+	margin: 20px;
+	padding: 20px;
+	position: relative;
+	top:;
+	bottom:;
+	right:;
+	left:562px;
+	bottom: 100px;
+}
+
+h2{
+	background: #1668c4;
+	width: 439px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	left: 582px;
+	bottom: 100px;
+}
+
+h1 {
+background: #1668c4;
+	width: 1300px;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	left: 150px;
+	bottom:135px;
+	font-size: 40px;
+
+}
+label{
+	font-size: 15px;
+display: block;;
+
+}
+
+input {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+ .condiciones {
+	width: 10%;
+
+}
+input:focus {
+	border: 1px solid blue;
+}
+
+input[type= "submit"]{
+	margin-bottom: 0;
+	background: #1668c4;
+	color: #fff;
+	border: none
+
+}
+input[type= "submit"]:hover{
+	background: #4a88f4;
+	cursor: pointer;
+
+}
+
+
+
