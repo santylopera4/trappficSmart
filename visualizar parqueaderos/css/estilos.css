@@ -1,0 +1,23 @@
+body{
+    background-color: #272727;
+}
+a{
+    font-size:100%;
+    color: black;
+
+}
+.titulo{
+    font-size: 100%;
+    color: black;
+
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.columna2{
+    align-content: center;
+    background-position:center; 
+
+
+}
