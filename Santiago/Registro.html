@@ -2,20 +2,66 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+
 	<title>Registro:Trappic Smart</title>
+
 	<link rel="stylesheet" type="text/css" href="DiseñoRegistro.css">
-	<img src="iconotrafico.png">
-	<h1>Trappic Smart</h1>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+
 </head>
-<body>
-<h2>Registro</h2>
-<form>
+
+<body  background="1.jpg">
+
+
+
+	<div class="container">
+
+		<div class="row">
+		<div class="col-xs-0 col-md-2">
+			<img src="iconotrafico.png">
+
+		</div>
+		<div class=" col-xs-12 col-md-10">
+
+	<h1 class="text-white">Trappic Smart</h1>
+<br>
+	</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-0 col-md-2">
+			<p></p>
+		</div>
+<div class="col-xs-12 col-md-8">
+	<h3 class="text-white">Registro</h3>
+</div>
+<div class="col-xs-0 col-md-2">
+			<p></p>
+		</div>
+</div>	
+
+
+
+	<div class="row">	
+
+<div class="col-md-3">
+	<p>
+		
+	</p>
+
+</div>
+<form class="col-md-6">
+
 	<label for="Nombre">Nombre</label>
 	<input type="text" placeholder="Ingresa tu Nombre" maxlength="50" name="Nombre">
 	<br><br>
+
 	<label for="Placa">Placa</label>
 	<input type="text" placeholder="Ingresa tu Placa" maxlength="50">
 	<br><br>
+
 	<label for="Tipo">Tipo de vehiculo</label>
 	<select>
 		<option value="Moto">Moto</option>
@@ -24,22 +70,34 @@
 		<option value="Cuatrimoto">Cuatrimoto</option>
 	</select>
     <br><br>
+
     <label for="Telefono">Telefono</label>
 	<input type="text" placeholder="Ingresa tu Telefono" maxlength="50" name="Telefono">
 	<br><br>
+
 	<label for="Correo">Correo</label>
 	<input type="email" placeholder="Ingresa tu Correo" maxlength="50" name="Correo">
 	<br><br>
+
 	<label for="Contraseña">Contraseña</label>
 	<input type="password" placeholder="Ingresa tu Contraseña" maxlength="50" name="Nombre">
 	<br><br>
+
 	<input class="condiciones" type="checkbox" name="condiciones">Acepta los terminos y condiciones de Trappic Smart
 	<br><br>
+
 	<input type="submit" name="Enviar" value="Enviar">
-
-
-	
-
 </form>
+
+</div>
+<div class="col-md-3">
+	<p>
+		
+	</p>
+</div>
+</div>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
 </body>
 </html>
