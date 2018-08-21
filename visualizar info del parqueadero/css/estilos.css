@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    margin: 20px;
+}
+.carrusel{
+    width: 70%;
+    margin: 30px;
+}
+button{
+    align-content: center;
+}
+.despliegue{
+    background-color: #7A7A7A;
+}
+p{
+    text-align: center;
+}
