@@ -1,3 +1,6 @@
 Vue.component('trapp-member',{
-    template:`AQUI VA EL CODIGO HTML`
+    template:
+    `<div>
+    AQUI VA EL CODIGO HTML
+    </div>`
 })

@@ -1,3 +1,6 @@
 Vue.component('trapp-header-mobile',{
-    template:`AQUI VA EL CODIGO HTML` 
+    template:
+    `<div>
+    AQUÍ VA EL CODIGO HTML
+    </div>` 
 })
