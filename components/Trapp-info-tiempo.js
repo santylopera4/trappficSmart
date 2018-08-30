@@ -1,6 +1,10 @@
 Vue.component('trapp-info-tiempo',{
     template:
-    `<div>
-    AQUI VA EL CODIGO HTML
+    `<div class = "tiempo">
+    <p>Tiempo de reserva</p><br>
+    <div class = "minutos">
+    <p> 5:00 minutos</p><br>
+    <button>cancelar</button>
+	</div>
     </div>`
 })

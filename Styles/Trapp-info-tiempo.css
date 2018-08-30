@@ -1,0 +1,14 @@
+.tiempo{
+	font-size: 20px;
+	font-family: Times New Roman;
+	position: relative;
+	left: 20px;
+}
+
+.minutos{
+	font-family: Times New Roman;
+	font-size: 18px;
+	position: relative;
+	left: 5px;
+	color: red;
+}

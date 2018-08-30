@@ -1,6 +1,7 @@
 Vue.component('trapp-member',{
     template:
     `<div>
-    AQUI VA EL CODIGO HTML
+    <h6> Jaime Echavarria</h6>
+    <p> docente enlace del concurso nacional</p>
     </div>`
 })
