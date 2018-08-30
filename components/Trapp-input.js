@@ -1,6 +1,9 @@
 Vue.component('trapp-input',{
     template:
     `<div>
-    AQUI VA EL CODIGO HTML
+    <form>
+    <label for="Nombre">Nombre</label>
+	<input type="text" placeholder="Ingresa tu Nombre" maxlength="50" name="Nombre">
+	</form>
     </div>`
 })

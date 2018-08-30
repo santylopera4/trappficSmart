@@ -1,6 +1,6 @@
 Vue.component('trapp-map',{
     template:
-    `<div>
-    AQUI VA EL CODIGO HTML
+    `<div>  
+	 <img src="old/visualizar parqueaderos/img/fondomapa.png">
     </div>`
 })
