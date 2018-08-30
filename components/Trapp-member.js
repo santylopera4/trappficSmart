@@ -1,7 +1,12 @@
 Vue.component('trapp-member',{
     template:
-    `<div>
-    <h6> Jaime Echavarria</h6>
-    <p> docente enlace del concurso nacional</p>
+    `<div class = "container">
+    	<div class = "row">	
+    		<div class = "col-xs"
+    		<h6> Jaime Echavarria</h6>
+    	</div>
+    	<div class = "row">
+    		<p> docente enlace del concurso nacional</p>
+    	</div>
     </div>`
 })
