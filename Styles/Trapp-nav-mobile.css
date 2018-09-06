@@ -4,6 +4,10 @@ body{
 .overlay,.sideMenu{
   position:fixed;bottom:0
 }
+.list1{
+  margin:0px;
+  padding:0px;
+}
 .overlay{
   top:0;
   left:-100%;
@@ -11,11 +15,14 @@ body{
   margin:auto;
   background-color:rgba(0,0,0,.5);
   z-index:998;
-  transition:all ease 0.2s
+  transition:all ease 0.2s;
+  height: 100%;
+
 }
 .overlay.open{
   left:0;
-  right:0
+  right:0;
+  height: 100%;
 }
 .sidebarNavigation{
   margin-bottom:0;
