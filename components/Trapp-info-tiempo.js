@@ -1,10 +1,10 @@
 Vue.component('trapp-info-tiempo',{
     template:
     `<div class = "tiempo">
-    <p>Tiempo de reserva</p><br>
-    <div class = "minutos">
-    <p> 5:00 minutos</p><br>
-    <button>cancelar</button>
-	</div>
+    	<h4>Tiempo de reserva</h4><br>
+    	<div class = "minutos">
+    		<p>10:00 minutos</p>
+    		<button>cancelar</button>
+		</div>
     </div>`
 })
