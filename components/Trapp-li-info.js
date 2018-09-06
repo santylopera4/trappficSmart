@@ -6,12 +6,13 @@ Vue.component('trapp-li-info',{
           <p> nombre: <strong> {{nombre}} </strong> </p>-->
 
           <i class="fas fa-user"></i>
-          <p> nombre: <strong> {{nombre}} </strong> </p>
+          <p> Nombre: <strong> {{nombre}} </strong> </p>
 
           <i class="fas fa-phone"></i>
-          <p> telefono: <strong> {{telefono}} </strong> </p>
+          <p> Telefono: <strong> {{telefono}} </strong> </p>
 
           <i class="fas fa-at"></i>
-          <p> correo: <strong> {{correo}} </strong> </p>
+          <p> Correo: <strong> {{correo}} </strong> </p>
+         
     </div>`
 })

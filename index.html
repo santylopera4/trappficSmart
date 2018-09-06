@@ -68,11 +68,11 @@
             <trapp-input></trapp-input>
             <br>
         </div>
-        <div>
+        <div v-for="item in String.Trapp_li_info">
             <h1>
                 Trapp-li-info
             </h1>
-            <trapp-li-info></trapp-li-info>
+            <trapp-li-info :nombre="item.nombre" :telefono="item.telefono" :correo="item.correo"></trapp-li-info>
             <br>
         </div>
         <div>

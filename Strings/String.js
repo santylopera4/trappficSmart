@@ -1,5 +1,11 @@
 var strings = {
-
+	
+Trapp_li_info: [
+    { nombre: 'Laura Catalina Escobar Orozco',
+      telefono: '3122899075',
+      correo: 'kataliina2806@gmail.com'
+    },
+  ]
 	equipo: [
 
 		{
