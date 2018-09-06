@@ -1,6 +1,6 @@
 Vue.component('trapp-nav-mobile', {
   template:
-    `<div class=" container">
+    `<div class=" container nav1">
     <header>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sidebarNavigation" data-sidebarClass="navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Menu</a>

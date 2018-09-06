@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TrappficSmart</title>
-    <link href = "https://fonts.googleapis.com/css?family= Roboto " rel = "stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
     <link rel="stylesheet" href="Libreries/bootstrap/css/bootstrap.min.css">
@@ -32,7 +31,20 @@
 </head>
 
 <body>
-    <div id="app" class="container">
+    <div id="app" class="container" >
+        <div>
+            <h1>
+                Trapp-nav-mobile
+            </h1>
+            <trapp-nav-mobile></trapp-nav-mobile>
+            <br>
+        </div>
+        <div>
+            <h1>
+                Trapp-nav-pc
+            </h1>
+            <trapp-nav-pc></trapp-nav-pc>
+        </div>
         <div>
             <h1>
                 Trapp-card
@@ -79,7 +91,8 @@
             <h1>
                 Trapp-li-nav
             </h1>
-            <trapp-li-nav></trapp-li-nav>
+            <trapp-li-nav  v-for="item in Strings.trapp_li_nav" :icono="item
+            .icono" :texto="item.texto"></trapp-li-nav>
             <br>
         </div>
         <div>
@@ -96,31 +109,21 @@
             <trapp-member></trapp-member>
             <br>
         </div>
-        <div>
-            <h1>
-                Trapp-nav-mobile
-            </h1>
-            <trapp-nav-mobile></trapp-nav-mobile>
-            <br>
-        </div>
-        <div>
-            <h1>
-                Trapp-nav-pc
-            </h1>
-            <trapp-nav-pc></trapp-nav-pc>
-        </div>
     </div>
-    
+
+
+
+
     <script>
         window.onload = function () {
-        if (window.jQuery) {
-            $(document).ready(function () { $(".sidebarNavigation .navbar-collapse").hide().clone().appendTo("body").removeAttr("class").addClass("sideMenu").show(); $("body").append("<div class='overlay'></div>"); $(".navbar-toggle, .navbar-toggler").on("click", function () { $(".sideMenu").addClass($(".sidebarNavigation").attr("data-sidebarClass")); $(".sideMenu, .overlay").toggleClass("open"); $(".overlay").on("click", function () { $(this).removeClass("open"); $(".sideMenu").removeClass("open") }) }); $("body").on("click", ".sideMenu.open .nav-item", function () { if (!$(this).hasClass("dropdown")) { $(".sideMenu, .overlay").toggleClass("open") } }); $(window).resize(function () { if ($(".navbar-toggler").is(":hidden")) { $(".sideMenu, .overlay").hide() } else { $(".sideMenu, .overlay").show() } }) })
-        } else { console.log("sidebarNavigation Requires jQuery") }
-    }
-   </script>
- 
+            if (window.jQuery) {
+                $(document).ready(function () { $(".sidebarNavigation .navbar-collapse").hide().clone().appendTo("body").removeAttr("class").addClass("sideMenu").show(); $("body").append("<div class='overlay'></div>"); $(".navbar-toggle, .navbar-toggler").on("click", function () { $(".sideMenu").addClass($(".sidebarNavigation").attr("data-sidebarClass")); $(".sideMenu, .overlay").toggleClass("open"); $(".overlay").on("click", function () { $(this).removeClass("open"); $(".sideMenu").removeClass("open") }) }); $("body").on("click", ".sideMenu.open .nav-item", function () { if (!$(this).hasClass("dropdown")) { $(".sideMenu, .overlay").toggleClass("open") } }); $(window).resize(function () { if ($(".navbar-toggler").is(":hidden")) { $(".sideMenu, .overlay").hide() } else { $(".sideMenu, .overlay").show() } }) })
+            } else { console.log("sidebarNavigation Requires jQuery") }
+        }
+    </script>
 
-    
+
+
     <script src="Libreries/bootstrap/js/jquery-3.3.1.min.js"></script>
     <script src="Libreries/bootstrap/js/bootstrap.min.js"></script>
     <script src="globals/Strings.js"></script>
