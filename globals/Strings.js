@@ -3,23 +3,23 @@ var Strings =
     trapp_li_nav:
     [
        {
-         icono:'<i class="fas fa-home"></i>',
+         icono:'fas fa-home',
          texto:'Inicio'
        },
        {
-        icono:'<i class="fas fa-user-circle"></i>',
+        icono:'fas fa-user-circle',
         texto:'Perfil'
       },
       {
-        icono:'<i class="fas fa-parking-circle"></i>',
+        icono:'fas fa-parking',
         texto:'Parqueaderos'
       },
       {
-        icono:'<i class="fas fa-question-circle"></i>',
+        icono:'fas fa-question-circle',
         texto:'Ayuda'
       },
       {
-        icono:'<i class="fas fa-question-circle"></i>',
+        icono:'fas fa-times-circle',
         texto:'Cerrar Sesion'
       },
 
