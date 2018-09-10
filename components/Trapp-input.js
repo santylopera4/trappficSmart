@@ -1,13 +1,11 @@
 Vue.component('trapp-input',{
+    props:['item'],
     template:
-    `<div class="container">
-    <div class="row">
-    <form>
-    <label for="Nombre">Nombre</label>
+    `<div>
+        
+    <label v-text="item.label" :for="item.label"></label>
     <br>
-    <i class="fas fa-user"></i>
-	<input type="text" placeholder="Ingresa tu Nombre" maxlength="50" name="Nombre">
-	</form>
-	</div>
+    <i :class="item.icono"></i>
+	<input type="text" :placeholder="item.texto" maxlength="50" :name="item.label">
     </div>`
 })

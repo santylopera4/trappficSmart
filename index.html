@@ -72,8 +72,11 @@
             <h1>
                 Trapp-input
             </h1>
-            <trapp-input></trapp-input>
-            <br>
+
+            <trapp-input :item="Strings.trapp_input['Nombre']"></trapp-input>
+            <trapp-input :item="Strings.trapp_input['Correo']"></trapp-input>
+            <trapp-input :item="Strings.trapp_input['Telefono']"></trapp-input>
+            
         </div>
         <div v-for="item in String.Trapp_li_info">
             <h1>

@@ -1,5 +1,27 @@
 var JsonTrapp = 
 {
+
+    trapp_input:
+    {
+      "Nombre":{
+          icono:'fas fa-user',
+          texto:'Ingresa tu nombre',
+          label:'Nombre'
+      },
+
+      "Correo":{
+          icono:'fas fa-at',
+          texto:'Ingresa tu correo',
+          label:'Correo' 
+      },
+
+      "Telefono":{
+          icono:'fas fa-phone-square',
+          texto:'Ingresa tu telefono',
+          label:'Telefono'
+      }
+    },
+
     trapp_li_nav:
     [
        {
