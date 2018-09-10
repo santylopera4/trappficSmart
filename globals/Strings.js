@@ -27,37 +27,37 @@ var JsonTrapp =
     Trapp_member:
     [
       {
-        icono:':src=Assets/perfil.jpg',
+        icono:'Assets/perfil.jpg',
         miembro:'Jaime Eccavarria',
         rol:'docente enlace del concurso nacional'
       },
       {
-        icono:':src=Assets/perfil.jpg',
-        miembro:'Jose',
+        icono:'Assets/jose.jpg',
+        miembro:'Jose Arango',
         rol:'Instructor del concurso nacional'
       },
       {
-        icono:':src=Assets/perfil.jpg',
-        miembro:'Cristian',
+        icono:'Assets/cristian.jpg',
+        miembro:'Cristian Marin',
         rol:'Instructor del concurso nacional'
       },
       {
-        icono:':src=Assets/perfil.jpg',
+        icono:'Assets/perfil.jpg',
         miembro:'Laura Escobar',
         rol:'Estudiante del concurso nacional'
       },
       {
-        icono:':src=Assets/perfil.jpg',
+        icono:'Assets/Alejandro.jpg',
         miembro:'Alejandro Gallego',
         rol:'Estudiante del concurso nacional'
       },
       {
-        icono:':src=Assets/perfil.jpg',
+        icono:'Assets/perfil.jpg',
         miembro:'Daniel Lopera',
         rol:'Estudiante del concurso nacional'
       },
       {
-        icono:':src=Assets/perfil.jpg',
+        icono:'Assets/perfil.jpg',
         miembro:'Santiago lopera',
         rol:'Estudiante del concurso nacional'
       }
