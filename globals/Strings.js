@@ -1,4 +1,4 @@
-var Strings = 
+var JsonTrapp = 
 {
     trapp_li_nav:
     [
