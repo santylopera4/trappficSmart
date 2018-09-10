@@ -106,7 +106,8 @@
             <h1>
                 Trapp-member
             </h1>
-            <trapp-member></trapp-member>
+            <trapp-member   v-for="item in Strings.trapp_member" :icono="item
+            .icono" :miembro="item.miembro" :rol="item.rol"></trapp-member>
             <br>
         </div>
     </div>

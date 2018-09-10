@@ -5,7 +5,7 @@ Trapp_li_info: [
       telefono: '3122899075',
       correo: 'kataliina2806@gmail.com'
     },
-  ]
+  ],
 	equipo: [
 
 		{
