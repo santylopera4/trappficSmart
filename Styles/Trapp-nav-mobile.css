@@ -1,16 +1,19 @@
 .nav1{
   font-family: 'Roboto', sans-serif;
 }
+a{
+  text-decoration: none;
+}
 body{
   position:relative
+}
+.li item1{
+  text-decoration: none;
 }
 .overlay,.sideMenu{
   position:fixed;bottom:0
 }
-.list1{
-  margin:0px;
-  padding:0px;
-}
+
 .overlay{
   top:0;
   left:-100%;
@@ -22,6 +25,11 @@ body{
   height: 100%;
 
 }
+.list1{
+  text-align: center;
+ align-content: center;
+}
+
 .overlay.open{
   left:0;
   right:0;
@@ -30,10 +38,10 @@ body{
 .sidebarNavigation{
   margin-bottom:0;
   z-index:999;
-  justify-content:flex-start
+  justify-content:flex-start;
 }
 .sidebarNavigation .leftNavbarToggler{
-  margin-right:10px;order:-1
+  margin-right:0px;order:-1
 }
 .sideMenu{
       left:-100%;
@@ -44,7 +52,7 @@ body{
       z-index:999;
       max-width:80%;
       margin-bottom:0;
-      padding:1rem
+      padding:0px;
   }
 .sideMenu.open{
   left:0;
@@ -53,5 +61,5 @@ body{
 }
 .sideMenu ul{
   margin:0
-  ;padding:0 15px
+  ;padding:0px
 }
