@@ -44,9 +44,7 @@
             <h1>
                 Trapp-card
             </h1>
-            <trapp-card
-            :titulo="'Trappfic Smart'" :texto="'Somos un equipo que se esmera porque los residentes y turistas puedan disfrutar del pueblo'">
-            </trapp-card>
+            <trapp-card></trapp-card>
             <br>
         </div>
         <div>
@@ -60,7 +58,7 @@
             <h1>
                 Trapp-header-pc
             </h1>
-            <trapp-header-pc :icono="Strings.trapp_header['icono']" :texto="Strings.trapp_li_nav['texto']"></trapp-header-pc>
+            <trapp-header-pc></trapp-header-pc>
             <br>
         </div>
         <div>
@@ -80,11 +78,11 @@
             <trapp-input :item="Strings.trapp_input['Telefono']"></trapp-input>
             
         </div>
-        <div>
+        <div v-for="item in String.Trapp_li_info">
             <h1>
                 Trapp-li-info
             </h1>
-            <trapp-li-info :nombre="'Laura Escobar'" :telefono="'3122899075'" :correo="'kataliina2806@gmail.com'"></trapp-li-info>
+            <trapp-li-info :nombre="item.nombre" :telefono="item.telefono" :correo="item.correo"></trapp-li-info>
             <br>
         </div>
         <div>
@@ -99,7 +97,9 @@
             <h1>
                 Trapp-map
             </h1>
-            <trapp-map></trapp-map>
+            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+            <script src="components/Trapp-map.js"></script>
+            <div id="map"></div>
             <br>
         </div>
         <div>
