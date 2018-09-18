@@ -1,4 +1,10 @@
-img {
-	width: 100%;
-	height: auto;
-}
+body {
+	height: 1280px;
+	margin: 0;
+	padding: 0;
+  }
+
+  #map {
+	height: 720px;
+  }
+
