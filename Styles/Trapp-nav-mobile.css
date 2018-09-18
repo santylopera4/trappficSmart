@@ -1,19 +1,17 @@
-.nav1{
-  font-family: 'Roboto', sans-serif;
-}
 a{
-  text-decoration: none;
+  text-decoration: none
 }
 body{
   position:relative
 }
-.li item1{
-  text-decoration: none;
+li:hover{
+  background: #7c734b;
+  transition: .5s; 
+  border-bottom: 5px solid rgba(0,0,0,.5);
 }
-.overlay,.sideMenu{
-  position:fixed;bottom:0
+.overlay, .sideMenu{
+  position:fixed;bottom:0;  
 }
-
 .overlay{
   top:0;
   left:-100%;
@@ -28,6 +26,7 @@ body{
 .list1{
   text-align: center;
  align-content: center;
+ 
 }
 
 .overlay.open{
@@ -41,7 +40,7 @@ body{
   justify-content:flex-start;
 }
 .sidebarNavigation .leftNavbarToggler{
-  margin-right:0px;order:-1
+  margin-right:0px;order:-1;
 }
 .sideMenu{
       left:-100%;
@@ -57,9 +56,14 @@ body{
 .sideMenu.open{
   left:0;
   display:block;
-  overflow-y:auto
+  overflow-y:auto;
 }
 .sideMenu ul{
-  margin:0
-  ;padding:0px
+  margin:0;
+  padding:0px;
+  height: 100%;
+}
+.sideMenu li:hover{
+  border-left:7px solid rgba(0,0,0,.5); 
+  border-bottom:none;
 }

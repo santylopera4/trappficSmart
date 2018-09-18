@@ -10,5 +10,5 @@ Vue.component('trapp-li-nav', {
                 </div>
             </a>
         </div>
-    </div>`
+    </div>` 
 })

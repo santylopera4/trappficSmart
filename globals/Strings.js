@@ -1,10 +1,9 @@
 var JsonTrapp = 
 {
-    trapp_header:{
-
-      icono:'fas fa-map-marked-alt'
-
-    },
+    trapp_header:
+      {
+      icono:'Assets/logo_header.png'
+      },
 
     trapp_input:
     {

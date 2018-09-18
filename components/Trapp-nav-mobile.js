@@ -2,7 +2,7 @@ Vue.component('trapp-nav-mobile', {
     props:['trapp_li_nav'],
   template:
     `<div>
-    <nav  class="nav1 container-fluid navbar  navbar-expand-md navbar-light bg-light  sidebarNavigation"nav1 data-sidebarClass="navbar-light bg-light">
+    <nav  class=" container-fluid navbar  navbar-expand-md navbar-dark bg-dark  sidebarNavigation"  data-sidebarClass="nav1 navbar-dark bg-dark " >
         <a class="navbar-brand" href="#">Menu</a>
         <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
