@@ -1,3 +1,3 @@
 const InfoParqueadero = {
-    template: `<div></div>`
+    template: `<div>adkhfgsufk</div>`
 }
