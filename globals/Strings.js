@@ -9,7 +9,7 @@ var JsonTrapp =
     {
       "Nombre":{
           icono:'fas fa-user',
-          texto:'Ingresa tu nombre',
+          texto:'Ingresa tu nombre', 
           label:'Nombre'
       },
 
