@@ -1,0 +1,20 @@
+.alert{
+    width: 50%;
+    height: 40%;
+    margin: auto;
+    background-color: rgb(71, 71, 71)
+}
+.salir{
+    display: none;
+}
+p.texto1{
+    color: #fff;
+}
+p.texto2{
+    text-align: center;
+    color: #fff;
+}
+h4.titulo{
+    text-align: center;
+    color: #fff;
+}

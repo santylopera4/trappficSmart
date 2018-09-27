@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const Principal = {
     template: `<div><div class="encabezado">
     <div class="container">
@@ -12,3 +13,5 @@ const Principal = {
 </div>
     </div></div>`
 }
+=======
+>>>>>>> 25be336565c069abfdc59ba932afc42d8a056660
