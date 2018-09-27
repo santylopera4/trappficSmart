@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-const InfoParqueadero = {
+Vue.component('info-parqueadero',{
+    props:['item'],
     template:
-     `<div>
-          
+    `<div>
+    Pagina infoparqueaderos
     </div>`
-}
-=======
->>>>>>> d5baacbb61a90620926fe217d5aac547f145f690
+}) 

@@ -2,6 +2,7 @@ var app = new Vue(
     {
         el:"#app",
         data:{
-            Strings:JsonTrapp
+            Strings:JsonTrapp,
+            currentRoute: window.location.search     
         }
 }) 
