@@ -1,8 +1,8 @@
-Login
+div
 {
     margin: 0;
     padding: 0;
-    background: url(Assets.1.jpg);
+    background: url(Assets/1.jpg);
     background-size: cover;
     font-family: sans-serif;
 }
@@ -52,10 +52,10 @@ h2
 .loginBox input[type="password"]
 {
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid black;
     background: transparent;
     outline: none;
-    color: #fff;
+    color: black;
     font-size: 16px;
 }
 ::placeholder
@@ -75,7 +75,7 @@ h2
 }
 .loginBox input[type="submit"]:hover
 {
-    background: #efed40;
+    background: lightblue;
     color: #262626;
 }
 .loginBox a

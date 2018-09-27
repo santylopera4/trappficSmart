@@ -31,13 +31,13 @@
 </head>
 
 <body>
-    <div id="app" class="container-fluid" >
+    <div id="app" class="container-fluid">
 
         <div>
             <h1>
                 Trapp-nav-mobile-y-pc
             </h1>
-            <trapp-nav-mobile :trapp_li_nav="Strings.trapp_li_nav" ></trapp-nav-mobile>
+            <trapp-nav-mobile :trapp_li_nav="Strings.trapp_li_nav"></trapp-nav-mobile>
             <br>
         </div>
         <div>
@@ -76,7 +76,7 @@
             <trapp-input :item="Strings.trapp_input['Nombre']"></trapp-input>
             <trapp-input :item="Strings.trapp_input['Correo']"></trapp-input>
             <trapp-input :item="Strings.trapp_input['Telefono']"></trapp-input>
-            
+
         </div>
         <div v-for="item in String.Trapp_li_info">
             <h1>
@@ -89,7 +89,7 @@
             <h1>
                 Trapp-li-nav
             </h1>
-            <trapp-li-nav  v-for="item in Strings.trapp_li_nav" :icono="item
+            <trapp-li-nav v-for="item in Strings.trapp_li_nav" :icono="item
             .icono" :texto="item.texto"></trapp-li-nav>
             <br>
         </div>
@@ -97,8 +97,6 @@
             <h1>
                 Trapp-map
             </h1>
-            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
-            <script src="components/Trapp-map.js"></script>
             <div id="map"></div>
             <br>
         </div>
@@ -106,22 +104,29 @@
             <h1>
                 Trapp-member
             </h1>
-            <trapp-member   v-for="item in Strings.Trapp_member" :icono="item
-            .icono" :miembro="item.miembro" :rol="item.rol"></trapp-member>
+            <trapp-member v-for="item in Strings.Trapp_member" :icono="item
+            .icono" :miembro="item.miembro"
+                :rol="item.rol"></trapp-member>
             <br>
+        </div>
+        <div>
+            <h1>
+                page NotFound
+            </h1>
+            <not-found></not-found>
         </div>
     </div>
 
-
-
-
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script src="components/Trapp-map.js"></script>
+    
     <script>
         window.onload = function () {
             if (window.jQuery) {
                 $(document).ready(function () { $(".sidebarNavigation .navbar-collapse").hide().clone().appendTo("body").removeAttr("class").addClass("sideMenu").show(); $("body").append("<div class='overlay'></div>"); $(".navbar-toggle, .navbar-toggler").on("click", function () { $(".sideMenu").addClass($(".sidebarNavigation").attr("data-sidebarClass")); $(".sideMenu, .overlay").toggleClass("open"); $(".overlay").on("click", function () { $(this).removeClass("open"); $(".sideMenu").removeClass("open") }) }); $("body").on("click", ".sideMenu.open .nav-item", function () { if (!$(this).hasClass("dropdown")) { $(".sideMenu, .overlay").toggleClass("open") } }); $(window).resize(function () { if ($(".navbar-toggler").is(":hidden")) { $(".sideMenu, .overlay").hide() } else { $(".sideMenu, .overlay").show() } }) })
             } else { console.log("sidebarNavigation Requires jQuery") }
         }
-    </script>   
+    </script>
 
 
 
@@ -129,6 +134,7 @@
     <script src="Libreries/bootstrap/js/bootstrap.min.js"></script>
     <script src="globals/Strings.js"></script>
     <script src="Libreries/Vue/vue.js"></script>
+<<<<<<< HEAD
     <script src="Pages/Creditos.js"></script>
     <script src="Pages/InfoParqueadero.js"></script>
     <script src="Pages/login.js"></script>
@@ -137,6 +143,8 @@
     <script src="Pages/Principal.js"></script>
     <script src="Pages/RecuperarContraseña.js"></script>
     <script src="Pages/Registro.js"></script>
+=======
+>>>>>>> d5baacbb61a90620926fe217d5aac547f145f690
     <script src="components/Trapp-card.js"></script>
     <script src="components/Trapp-header-mobile.js"></script>
     <script src="components/Trapp-header-pc.js"></script>
@@ -148,6 +156,7 @@
     <script src="components/Trapp-member.js"></script>
     <script src="components/Trapp-nav-mobile.js"></script>
     <script src="components/Trapp-nav-pc.js"></script>
+    <script src="pages/NotFound.js"></script>
     <script src="main.js"></script>
 
 </body>
