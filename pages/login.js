@@ -1,11 +1,10 @@
-<<<<<<< HEAD
-const Login = {
-    template: 
+Vue.component('log-in',{
+    props:['item'],
+    template:
     `<div class="loginBox">
         <img src="Assets/perfil.jpg" class="user">  
         <h2>Iniciar Sesión</h2>
-                    <!-- trapp-input :item="Strings.trapp_input['Usuario']"></trapp-input>
-                    <trapp-input :item="Strings.trapp_input['Contraseña']"></trapp-input-->
+
         <form>
         <i class="fas fa-user"></i>
         <label>Usuario</label>
@@ -15,14 +14,9 @@ const Login = {
         <input type="password" name="" placeholder="Ingrese su contraseña">
         </form>
         <input type="submit" name="" value="Ingreasar">
-        <a href="#">Registrarme</a> 
-        <a href="#">Olvidé mi contraseña</a>
-=======
-Vue.component('log-in',{
-    props:['item'],
-    template:
-    `<div>
-    Pagina Login
->>>>>>> 93a1395270dca85b0427d22b70c2df718d0ebfb9
+        <a href="file:///C:/Users/Lenovo/Documents/GitHub/trappficSmart/index.html?Registro">Registrarme</a> 
+        <a href="file:///C:/Users/Lenovo/Documents/GitHub/trappficSmart/index.html?RecuperarContrase%C3%B1a">Olvidé mi contraseña</a>
     </div>`
 })
+
+

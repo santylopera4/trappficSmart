@@ -1,8 +1,8 @@
-div
+body
 {
     margin: 0;
     padding: 0;
-    background: url(Assets/1.jpg);
+    background: url(../Assets/1.jpg);
     background-size: cover;
     font-family: sans-serif;
 }
@@ -16,7 +16,7 @@ div
     height: 420px;
     padding: 80px 40px;
     box-sizing: border-box;
-    background: rgba(0, 0, 0,.5);
+    background: rgba(0, 0, 0, 0.5);
 }
 .user
 {
@@ -26,13 +26,13 @@ div
     overflow: hidden;
     position: absolute;
     top: calc(-100px/2);
-    left: calc(50% - 50%);
+    left: calc(35%);
 }
 h2
 {
     margin: 0;
     padding: 0 0 20px;
-    color: #efed40;
+    color: yellow;
     text-align: center;
 }
 .loginBox label
@@ -48,21 +48,22 @@ h2
     width: 100%;
     margin-bottom: 20px;
 }
-.loginBox input[type="text"]
+.loginBox input[type="text"],
 .loginBox input[type="password"]
 {
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fff;
     background: transparent;
     outline: none;
-    color: black;
+    height: 40px;
+    color: white;
     font-size: 16px;
 }
 ::placeholder
 {
-    color: rgba(255, 255, 255, .5);
+    color: white;
 }
-.loginBox input [type="text"]
+.loginBox input[type="submit"]
 {
     border: none;
     outline: none;
@@ -71,11 +72,11 @@ h2
     font-size: 16px;
     background: #ff257e;
     cursor: pointer;
-    border-radius: 20%;
+    border-radius: 20px;
 }
 .loginBox input[type="submit"]:hover
 {
-    background: lightblue;
+    background: yellow;
     color: #262626;
 }
 .loginBox a
