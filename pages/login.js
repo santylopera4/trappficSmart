@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const Login = {
     template: 
     `<div class="loginBox">
@@ -16,5 +17,12 @@ const Login = {
         <input type="submit" name="" value="Ingreasar">
         <a href="#">Registrarme</a> 
         <a href="#">Olvidé mi contraseña</a>
+=======
+Vue.component('log-in',{
+    props:['item'],
+    template:
+    `<div>
+    Pagina Login
+>>>>>>> 93a1395270dca85b0427d22b70c2df718d0ebfb9
     </div>`
-}
+})
