@@ -47,17 +47,16 @@
         </div>
         <div v-else-if="currentRoute == '?principal'">
 
-            <prin-cipal></prin-cipal>
+            <prin-cipal :trapp_li_nav="Strings.trapp_li_nav"></prin-cipal>
             <br>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-            <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBA_-wQn51rcODEzptoHPwY9gAls9fVjLc'></script>
-            <script src="components/Trapp-map.js"></script>
-            <div id="map"></div>
-        </div>
-        </div>
-    </div>
+
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div v-else-if="currentRoute == '?recuperarcontrasena'">
             <recuperar-contrasena></recuperar-contrasena>
@@ -70,7 +69,7 @@
         </div>
     </div>
 
-    
+
 
     <script>
         window.onload = function () {
@@ -81,7 +80,8 @@
     </script>
 
 
-
+    <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBA_-wQn51rcODEzptoHPwY9gAls9fVjLc'></script>
+    <script src="components/Trapp-map.js"></script>
     <script src="Libreries/bootstrap/js/jquery-3.3.1.min.js"></script>
     <script src="Libreries/bootstrap/js/bootstrap.min.js"></script>
     <script src="globals/Strings.js"></script>
@@ -101,7 +101,7 @@
     <script src="components/Trapp-input.js"></script>
     <script src="components/Trapp-li-info.js"></script>
     <script src="components/Trapp-li-nav.js"></script>
-    
+
     <script src="components/Trapp-member.js"></script>
     <script src="components/Trapp-nav-mobile.js"></script>
     <script src="components/Trapp-nav-pc.js"></script>
