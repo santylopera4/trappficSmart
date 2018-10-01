@@ -1,12 +1,12 @@
+
 header{
-	background-image: url(../Assets/fondo_notfound.jpg);
 	background-repeat:none;
-	height: 100%;
 	width: 100%;
 	background-position: center;
     background-size: cover;
 	height: 100vh;
 	position: fixed;
+	margin: auto;
 }
 .title{
 	margin: 40px 0px;

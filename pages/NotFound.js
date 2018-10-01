@@ -1,7 +1,7 @@
 Vue.component('not-found',{
     props:[''],
     template:
-	`<div class="notfound">
+	`<div class="container-fluid notfound">
 	<header>
 		<div class="titulo">
 			<h1 class="title">Lo sentimos!!<img src="Assets/iconnotfound.png" alt=""></h1>
