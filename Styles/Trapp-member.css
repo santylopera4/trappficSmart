@@ -3,19 +3,15 @@
 	height: 70px;
 	display: block;
 	border-radius : 50%;
-	border: 1px solid blue;
+	border: 1px solid rgba(0, 0, 0,.5);
+	;
 }
 .tx {
 	position:relative;
-	top: ;
 	bottom: 40px;
-	right: ;
 	left: 70px;
 }
 .titulo{
 	position: relative;
 	top:10px ;
-	bottom: ;
-	right: ;
-	left: ;
 }
