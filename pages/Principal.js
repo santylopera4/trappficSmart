@@ -1,7 +1,9 @@
 Vue.component('prin-cipal',{
-    props:['item'],
+    props:['trapp_li_nav'],
     template:
     `<div>
-    Pagina Principal
+  <trapp-nav-mobile :trapp_li_nav="trapp_li_nav"><trapp-nav-mobile>
+  <br>
+ 
     </div>`
 }) 
