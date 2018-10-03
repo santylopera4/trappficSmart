@@ -4,6 +4,5 @@ Vue.component('prin-cipal',{
     `<div>
   <trapp-nav-mobile :trapp_li_nav="trapp_li_nav"><trapp-nav-mobile>
   <br>
- 
     </div>`
 }) 

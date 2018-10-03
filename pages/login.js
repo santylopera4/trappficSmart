@@ -13,10 +13,8 @@ Vue.component('log-in',{
         <label>Contraseña</label>
         <input type="password" name="" placeholder="Ingrese su contraseña">
         </form>
-        <input type="submit" name="" value="Ingreasar">
+        <input type="submit" name="" value="Ingresar">
         <a href="file:///C:/Users/Lenovo/Documents/GitHub/trappficSmart/index.html?Registro">Registrarme</a> 
         <a href="file:///C:/Users/Lenovo/Documents/GitHub/trappficSmart/index.html?RecuperarContrase%C3%B1a">Olvidé mi contraseña</a>
     </div>`
 })
-
-
