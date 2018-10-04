@@ -1,16 +1,22 @@
-.container1{
+.container10{ 
+    position: relative;
+    top: 100px;
     text-align: center;
     width: 100%;
-    max-width: 1000px;
+    max-width: 600px;
     margin: auto;
     overflow: hidden;
-	border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
 }
 h1{
     text-align: center;
     color: yellow;
 }
-label{
+.label1{
+    position: relative;
+    right: 70px;
+    font-size: 20px;
     color: yellow;
 }
 button{

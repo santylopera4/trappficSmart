@@ -39,7 +39,7 @@
             <log-in></log-in>
         </div>
         <div v-else-if="currentRoute == '?creditos'">
-            <cre-ditos v-for="item in Strings.Trapp_member" :icono="item.icono" :miembro="item.miembro" :rol="item.rol"></cre-ditos>
+            <cre-ditos></cre-ditos>
         </div>
         <div v-else-if="currentRoute == '?infoparqueadero'">
             <info-parqueadero :trapp_li_nav="Strings.trapp_li_nav"></info-parqueadero>
