@@ -1,4 +1,4 @@
-body
+.login
 {
     margin: 0;
     padding: 0;
@@ -12,9 +12,6 @@ body
 .loginBox
 {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     width: 350px;
     height: 420px;
     padding: 80px 40px;
@@ -62,7 +59,11 @@ h2
     color: white;
     font-size: 16px;
 }
-::placeholder
+::-webkit-input-placeholder
+{
+    color: white;
+}
+::-moz-placeholder
 {
     color: white;
 }
@@ -88,5 +89,8 @@ h2
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
-    
+}
+.loginBox a :hover
+{
+    color: yellow;
 }

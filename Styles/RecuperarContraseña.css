@@ -1,0 +1,28 @@
+.container1{
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+	border: 1px solid rgb(0, 0, 0);
+}
+h1{
+    text-align: center;
+    color: yellow;
+}
+label{
+    color: yellow;
+}
+button{
+    color: beige;
+    background: rgba(56, 56, 56, 0.9);
+    padding: 4px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+    background: rgb(56, 56, 56);
+}
+::placeholder
+{
+    color: rgba(0, 0, 0, 0.815);
+}

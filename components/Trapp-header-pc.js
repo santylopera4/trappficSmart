@@ -1,7 +1,8 @@
 Vue.component('trapp-header-pc',{
     props:['icono','texto'],
     template:
-    `<div class="encabezado">
+    `<div>
+    <div class="encabezado">
     <div class="container">
     <div class="row justify-content(center) d-flex-center  ">
         <div class="col1 col align-self-center col-6">
@@ -12,5 +13,6 @@ Vue.component('trapp-header-pc',{
         </div>
     </div>
 </div>
+    </div>
     </div>`
 })

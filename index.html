@@ -39,7 +39,7 @@
             <log-in></log-in>
         </div>
         <div v-else-if="currentRoute == '?creditos'">
-            <cre-ditos></cre-ditos>
+            <cre-ditos v-for="item in Strings.Trapp_member" :icono="item.icono" :miembro="item.miembro" :rol="item.rol"></cre-ditos>
         </div>
         <div v-else-if="currentRoute == '?infoparqueadero'">
             <info-parqueadero :trapp_li_nav="Strings.trapp_li_nav"></info-parqueadero>
@@ -48,6 +48,8 @@
             <per-fil></per-fil>
         </div>
         <div v-else-if="currentRoute == '?principal'">
+            <trapp-header-pc :icono="Strings.trapp_header['icono']" :texto="Strings.trapp_li_nav[0].texto" ></trapp-header-pc>
+
             <prin-cipal :trapp_li_nav="Strings.trapp_li_nav"></prin-cipal>
             <br>
             <div class="container">
