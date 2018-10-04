@@ -1,9 +1,12 @@
 Vue.component('info-parqueadero',{
-    props:['item'],
+    props:['trapp_li_nav'],
     template:
     `<div>
+    <div >
+     <trapp-nav-mobile :trapp_li_nav="trapp_li_nav"><trapp-nav-mobile> 
+     </div>
     <div class="container-fluid infop">
-
+    <hr>
     <div>
     <h1 class="Nombre">Nombre del Praqueadero</h1>
     </div>
@@ -41,24 +44,24 @@ Vue.component('info-parqueadero',{
 <br>
 
     <div class="infomacion">
-        <div class="par">
-        <h5>Telefono:</h5>
+        <div class="par"><h5>
+        <i class="fas fa-phone"></i>Telefono:</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, quod, fugit consectetur nobis, fugiat modi voluptatum debitis ipsum dolorem dolorum veniam. Reprehenderit nostrum enim a ad natus sed unde at.</p>
         <hr></div>
         <div class="par">        
-        <h5>Ubicacion:</h5>
+        <h5><i class="fas fa-map-marker-alt"></i>Ubicacion:</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, quod, fugit consectetur nobis, fugiat modi voluptatum debitis ipsum dolorem dolorum veniam. Reprehenderit nostrum enim a ad natus sed unde at.</p>
         <hr></div>
         <div class="par">        
-        <h5>Cupos:</h5>
+        <h5><strong>#</strong>Cupos:</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, quod, fugit consectetur nobis, fugiat modi voluptatum debitis ipsum dolorem dolorum veniam. Reprehenderit nostrum enim a ad natus sed unde at.</p>
         <hr></div>
         <div class="par">        
-        <h5>Tarifas:</h5>
+        <h5><i class="fas fa-dollar-sign"></i>Tarifas:</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, quod, fugit consectetur nobis, fugiat modi voluptatum debitis ipsum dolorem dolorum veniam. Reprehenderit nostrum enim a ad natus sed unde at.</p>
         <hr></div>
         <div class="par">        
-        <h5>Extras:</h5>
+        <h5><strong> +</strong>Extras:</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, quod, fugit consectetur nobis, fugiat modi voluptatum debitis ipsum dolorem dolorum veniam. Reprehenderit nostrum enim a ad natus sed unde at.</p>
         <hr></div>
         
