@@ -14,6 +14,5 @@ Vue.component('cre-ditos', {
             </p>
             <br>
             <h1>Miembros</h1>
-            <cre-ditos></cre-ditos>
             </div>`
 })
