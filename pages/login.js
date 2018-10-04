@@ -19,4 +19,4 @@ Vue.component('log-in',{
             <a href="file:///C:/Users/Lenovo/Documents/GitHub/trappficSmart/index.html?RecuperarContrase%C3%B1a">Olvidé mi contraseña</a>
         </div>
     </div>`
-})
+}) 
