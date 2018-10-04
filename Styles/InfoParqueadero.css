@@ -1,6 +1,9 @@
 header{
     z-index: 1;
 }
+.col{
+    width: 100%
+}
 .w-100{
     max-width: 80%;
     max-height: 60%;
@@ -30,6 +33,9 @@ strong{
     width: 100px;
     height: 40%;
 }
+.cl2{
+    margin: 25px auto;
+}
 i{
     padding:1px 9px;
     margin-left:auto;
@@ -44,13 +50,14 @@ h5{
     background-color:  #ffc400;
     padding: 1px 3px;
     border: #262626 solid 2px;
+    width: 100%;
 }
 p{
     text-align: center;
     color: #d3d3d2;
 }
 .par{
-    width: 70%;
+    width: 100%;
     align-content: center;
     margin: auto;
     font-size: 20px;

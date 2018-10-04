@@ -2,17 +2,17 @@ Vue.component('info-parqueadero',{
     props:['trapp_li_nav'],
     template:
     `<div>
-    <div >
+    <div>
      <trapp-nav-mobile :trapp_li_nav="trapp_li_nav"><trapp-nav-mobile> 
      </div>
     <div class="container-fluid infop">
     <hr>
     <div>
-    <h1 class="Nombre">Nombre del Praqueadero</h1>
+    <h1 class="Nombre">Nombre del Parqueadero</h1>
     </div>
     <hr>
-
-  
+    <div class="row justify-content-md-center">
+     <div class="cl1 col col-12 col-sm-12 col-md-12 col-gl-6 col-xl-6 ">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -39,38 +39,58 @@ Vue.component('info-parqueadero',{
     <span class="sr-only">Next</span>
   </a>
 </div>
-
+ </div>
 <br>
 <br>
 
-    <div class="infomacion">
-        <div class="par"><h5>
-        <i class="fas fa-phone"></i>Telefono:</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, quod, fugit consectetur nobis, fugiat modi voluptatum debitis ipsum dolorem dolorum veniam. Reprehenderit nostrum enim a ad natus sed unde at.</p>
-        <hr></div>
-        <div class="par">        
+    <div class="cl2 col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6   infomacion">
+     
+        <div class="row">
+
+        <div class="col col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 par">
+        <h5><i class="fas fa-phone"></i>Telefono:</h5>
+        <p>2344553553.</p>
+        </div>
+
+        <div class="col col-12 col-md-12 col-sm-12  col-lg-6 col-xl-6 par">        
         <h5><i class="fas fa-map-marker-alt"></i>Ubicacion:</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, quod, fugit consectetur nobis, fugiat modi voluptatum debitis ipsum dolorem dolorum veniam. Reprehenderit nostrum enim a ad natus sed unde at.</p>
-        <hr></div>
-        <div class="par">        
+        <p>khhhhjgj</p>
+        </div>
+
+        </div>
+        <div class="row">
+
+        <div class="col col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 par">        
         <h5><strong>#</strong>Cupos:</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, quod, fugit consectetur nobis, fugiat modi voluptatum debitis ipsum dolorem dolorum veniam. Reprehenderit nostrum enim a ad natus sed unde at.</p>
-        <hr></div>
-        <div class="par">        
+        <p>wqwqwqwjbe.</p>
+        </div>
+
+        <div class="col col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 par">        
         <h5><i class="fas fa-dollar-sign"></i>Tarifas:</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, quod, fugit consectetur nobis, fugiat modi voluptatum debitis ipsum dolorem dolorum veniam. Reprehenderit nostrum enim a ad natus sed unde at.</p>
-        <hr></div>
-        <div class="par">        
+        <p>qwekjbqwkejbqe</p>
+        </div>
+
+        </div>
+        <div class="row">
+
+        <div class="col col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 par">        
         <h5><strong> +</strong>Extras:</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, quod, fugit consectetur nobis, fugiat modi voluptatum debitis ipsum dolorem dolorum veniam. Reprehenderit nostrum enim a ad natus sed unde at.</p>
-        <hr></div>
+        <p>kahsiadhadndjadj</p>
+        </div>
+
+        </div>
         
+        <!--
         <div class="boton">
         <button class="reservar">Reservar</button>
         </div>
         <br>
+        -->
     </div>
-
-  </div>
+   </div> 
+   <br>
+   <br>
+   <br>
+  </div> 
     </div>`
 })  
