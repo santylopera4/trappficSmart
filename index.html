@@ -42,13 +42,15 @@
             <cre-ditos></cre-ditos>
         </div>
         <div v-else-if="currentRoute == '?infoparqueadero'">
-            <info-parqueadero></info-parqueadero>
+            <info-parqueadero :trapp_li_nav="Strings.trapp_li_nav"></info-parqueadero>
         </div>
         <div v-else-if="currentRoute == '?perfil'">
             <per-fil></per-fil>
         </div>
         <div v-else-if="currentRoute == '?principal'">
-            <prin-cipal :trapp_li_nav="Strings.trapp_li_nav" :trapp_header="Strings.trapp_header"></prin-cipal>
+            <trapp-header-pc :icono="Strings.trapp_header['icono']" :texto="Strings.trapp_li_nav[0].texto" ></trapp-header-pc>
+
+            <prin-cipal :trapp_li_nav="Strings.trapp_li_nav"></prin-cipal>
             <br>
             <div class="container">
                 <div class="row">

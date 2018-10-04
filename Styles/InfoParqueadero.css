@@ -1,3 +1,6 @@
+header{
+    z-index: 1;
+}
 .w-100{
     max-width: 80%;
     max-height: 60%;
@@ -19,9 +22,17 @@
 .images{
     margin: 30px 0px;
 }
+strong{
+    padding: 1px 10px;
+    font-size: 25px;
+}
 .imagenes{
     width: 100px;
     height: 40%;
+}
+i{
+    padding:1px 9px;
+    margin-left:auto;
 }
 hr{
     background-color: #fff;
@@ -31,7 +42,7 @@ h5{
     height: 30px;
     text-align: center;
     background-color:  #ffc400;
-    padding: 2.8px;
+    padding: 1px 3px;
     border: #262626 solid 2px;
 }
 p{

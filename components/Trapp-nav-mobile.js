@@ -2,11 +2,11 @@ Vue.component('trapp-nav-mobile', {
     props:['trapp_li_nav'],
   template:
     `<div>
-    <nav  class=" container-fluid navbar  navbar-expand-md navbar-dark bg-dark  sidebarNavigation"  data-sidebarClass="nav1 navbar-dark bg-dark " >
-        <a class="navbar-brand" href="#">Menu</a>
+    <nav  class=" container-fluid navbar  navbar-expand-md navbar- bg-  sidebarNavigation"  data-sidebarClass="nav1 navbar- bg- " >
+        <a class="menu navbar-brand" href="#">Menu</a>
         <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
         </button>
         <div class="collage collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">

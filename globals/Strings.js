@@ -1,5 +1,5 @@
 var JsonTrapp = 
-{
+{ 
     trapp_header:
       {
       icono:'Assets/logo_header.png'
