@@ -17,6 +17,12 @@ header{
 .informacion{
     margin: 40px 0px;
 }
+.menu{
+    margin: auto;
+    color: #ffc400;
+    padding: 0px 10px;
+
+}
 .Nombre{
     text-align: center;
     margin: 20px 0px;

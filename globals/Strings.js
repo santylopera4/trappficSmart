@@ -1,5 +1,6 @@
 var JsonTrapp = 
 { 
+  
     trapp_header:
       {
       icono:'Assets/logo_header.png'
@@ -32,10 +33,6 @@ var JsonTrapp =
          icono:'fas fa-home',
          texto:'Inicio'
        },
-       {
-        icono:'fas fa-user-circle',
-        texto:'Perfil'
-      },
       {
         icono:'fas fa-parking',
         texto:'Parqueaderos'
@@ -45,9 +42,13 @@ var JsonTrapp =
         texto:'Ayuda'
       },
       {
+       icono:'fas fa-user-circle',
+       texto:'Creditos'
+     },
+      /*{
         icono:'fas fa-times-circle',
         texto:'Cerrar Sesion'
-      },
+      },*/
 
     ],
     Trapp_member:
