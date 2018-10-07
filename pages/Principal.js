@@ -3,7 +3,7 @@ Vue.component('prin-cipal', {
   template:
     `<div>
  
-  <trapp-nav-mobile :trapp_li_nav="trapp_li_nav"><trapp-nav-mobile>
+  <trapp-nav-mobile :trapp_li_nav="trapp_li_nav"></trapp-nav-mobile>
   <br>
     </div>`
 }) 
