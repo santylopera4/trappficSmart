@@ -8,7 +8,7 @@ Vue.component('trapp-header-pc',{
         <div class="col1 col align-self-center col-6">
            <a href="#"><h1>{{texto}}</h1></a>
         </div>
-        <div class="col2 col align-self-auto col-6">
+        <div class="col2 col align-self-center col-6">
         <a href="#"><img :src="icono" ></a>        
         </div>
     </div>

@@ -1,9 +1,9 @@
 Vue.component('trapp-li-nav', {
-    props: ['icono', 'texto'],
+    props: ['icono', 'texto','link'],
     template:
         `<div class="container li_nav">
         <div class="row">
-            <a href="#" class="nav-link">
+            <a :href="link" class="nav-link">
                 <div class="lista col">
                 <i :class='icono'></i>
                     {{texto}}
