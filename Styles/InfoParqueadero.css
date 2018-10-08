@@ -3,12 +3,15 @@ header{
 }
 .col{
     width: 100%
-}
+} 
 .w-100{
     max-width: 80%;
     max-height: 60%;
     margin: auto;
 
+}
+.par h5{
+    color: #262626;
 }
 .infop{
     overflow: auto;
@@ -66,7 +69,8 @@ p{
     width: 100%;
     align-content: center;
     margin: auto;
-    font-size: 20px;
+    font-size: 18px;
+    color: #d3d3d2;
 }
 .reservar{
     margin: auto;

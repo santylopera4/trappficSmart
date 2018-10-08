@@ -11,7 +11,7 @@ Vue.component('trapp-nav-mobile', {
         <div class="collage collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item list1" v-for="item in trapp_li_nav">
-                   <a class="nav-link" href=""><trapp-li-nav :texto="item.texto" :icono="item.icono" ></trapp-li-nav></a>
+                   <a class="nav-link" href=""><trapp-li-nav :texto="item.texto" :icono="item.icono" :link="item.link" ></trapp-li-nav></a>
                 </li>
             </ul>
         </div>
