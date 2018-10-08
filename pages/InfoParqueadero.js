@@ -2,10 +2,9 @@ Vue.component('info-parqueadero',{
     props:['trapp_li_nav','info_parqueadero','trapp_header','icono','texto'],
     template:
 `<div> 
-        <div>
-   
-        <trapp-header-pc :trapp_header="trapp_header" ></trapp-header-pc>
-         
+        <div>   
+                <trapp-header-pc :icono="trapp_header.icono" :texto="trapp_li_nav[1].texto"></trapp-header-pc> 
+
                   <trapp-nav-mobile :trapp_li_nav="trapp_li_nav"></trapp-nav-mobile> 
         </div>
         <div v-for="item in info_parqueadero" :id="item.id" >
@@ -16,32 +15,40 @@ Vue.component('info-parqueadero',{
                 </div>
                 <hr>
                   <div class="row justify-content-md-center">
-                      <div class="cl1 col col-12 col-sm-12 col-md-12 col-gl-6 col-xl-6 ">
+                      <div class="cl1 col col-12 col-sm-12 col-md-6 col-gl-6 col-xl-6 ">
 
-                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img class="imagenes d-block w-100" :src="item.img1" alt="First slide">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img class="imagenes d-block w-100" :src="item.img2" alt="Second slide">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img class="imagenes d-block w-100" :src="item.img3" alt="Third slide">
-                                  </div>
-                                </div>
-                              </div>
+                      <div :id="item.idcarrusel" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li :data-target="'#' + item.idcarrusel" data-slide-to="0" class="active"></li>
+                        <li :data-target="'#' + item.idcarrusel" data-slide-to="1"></li>
+                        <li :data-target="'#' + item.idcarrusel" data-slide-to="2"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img class="imagenes d-block w-100" :src="item.img1" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="imagenes d-block w-100" :src="item.img2" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="imagenes d-block w-100" :src="item.img3" alt="Third slide">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" :href="'#' + item.idcarrusel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" :href="'#' + item.idcarrusel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
 
                       </div>
                       <br>
                       <br>
 
-                      <div class="cl2 col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6   infomacion">
+                      <div class="cl2 col col-12 col-sm-6 col-md-12 col-lg-6 col-xl-6   infomacion">
                         
                             <div class="row">
 

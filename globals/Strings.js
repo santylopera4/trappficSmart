@@ -31,7 +31,8 @@ var JsonTrapp =
        img1:'Assets/Parqueaderos/Sanmateo/img1.jpg',
        img2:'Assets/Parqueaderos/Sanmateo/img2.jpg',
        img3:'Assets/Parqueaderos/Sanmateo/img3.jpg',
-       id1:'#sanmateo',
+       id:'Sanmateo',
+       idcarrusel:"Smateo"
       },
       {
         nombre:'Full Autos Belén',
@@ -65,10 +66,11 @@ var JsonTrapp =
         img1:'Assets/Parqueaderos/Fullautos/img1.jpg',
         img2:'Assets/Parqueaderos/Fullautos/img2.jpg',
         img3:'Assets/Parqueaderos/Fullautos/img3.jpg',
-        id:'#fullautos'
+        id:'Fullautos',
+        idcarrusel:'fautos'
        },
        {
-        nombre:'El faro',
+        nombre:'El Faro',
         telefono:'...',
         ubicacion:'Centro Comercial el Faro',
         cupos:
@@ -99,7 +101,8 @@ var JsonTrapp =
         img1:'Assets/Parqueaderos/ElfaRo/img1.jpg',
         img2:'Assets/Parqueaderos/Elfaro/img2.jpg',
         img3:'Assets/Parqueaderos/Elfaro/img3.jpg',
-        id:''
+        id:'ElFaro',
+        idcarrusel:'faro'
        },
        {
         nombre:'Parqueadero Michus',
@@ -133,7 +136,8 @@ var JsonTrapp =
         img1:'Assets/Parqueaderos/Michus/img1.jpg',
         img2:'Assets/Parqueaderos/Michus/img2.jpg',
         img3:'Assets/Parqueaderos/Michus/img3.jpg',
-        id:'#Michus'
+        id:'Michus',
+        idcarrusel:'Pmichus'
        },
        {
         nombre:'El Desvare',
@@ -167,7 +171,8 @@ var JsonTrapp =
         img1:'Assets/Parqueaderos/Eldesvare/img1.jpg',
         img2:'Assets/Parqueaderos/Eldesvare/img2.jpg',
         img3:'Assets/Parqueaderos/Eldesvare/img3.jpg',
-        id:'#Eldeavare'
+        id:'Eldeavare',
+        idcarrusel:'desvare'
        },
        {
         nombre:'La Capilla',
@@ -201,7 +206,8 @@ var JsonTrapp =
         img1:'Assets/Parqueaderos/Lacapilla/img1.jpg',
         img2:'Assets/Parqueaderos/Lacapilla/img2.jpg',
         img3:'Assets/Parqueaderos/Lacapilla/img3.jpg',
-        id:'#capilla'
+        id:'capilla',
+        idcarrusel:'Lacapilla'
        },
        {
         nombre:'La 49',
@@ -235,10 +241,11 @@ var JsonTrapp =
         img1:'Assets/Parqueaderos/La49/img1.jpg',
         img2:'Assets/Parqueaderos/La49/img2.jpg',
         img3:'Assets/Parqueaderos/La49/img3.jpg',
-        id:'#La49'
+        id:'La49',
+        idcarrusel:'P49'
        },
        {
-        nombre:'San Pedro',
+        nombre:'Barandales',
         telefono:'....',
         ubicacion:'La Bomba',
         cupos:
@@ -266,13 +273,14 @@ var JsonTrapp =
                }    
         },
         extras:'',
-        img1:'',
-        img2:'',
-        img3:'',
-        id:''
+        img1:'Assets/Parqueaderos/Barandales/img1.jpg',
+        img2:'Assets/Parqueaderos/Barandales/img2.jpg',
+        img3:'Assets/Parqueaderos/Barandales/img3.jpg',
+        id:'Barandales',
+        idcarrusel:'BRDL'
        },
        {
-        nombre:'',
+        nombre:'El Trebol',
         telefono:'',
         ubicacion:'',
         cupos:
@@ -300,13 +308,14 @@ var JsonTrapp =
                }    
         },
         extras:'',
-        img1:'',
-        img2:'',
-        img3:'',
-        id:''
+        img1:'Assets/Parqueaderos/Eltrebol/img1.jpg',
+        img2:'Assets/Parqueaderos/Eltrebol/img2.jpg',
+        img3:'Assets/Parqueaderos/Eltrebol/img3.jpg',
+        id:'Eltrebol',
+        idcarrusel:'trebol'
        },
        {
-        nombre:'',
+        nombre:'La Plazuela',
         telefono:'',
         ubicacion:'',
         cupos:
@@ -334,13 +343,14 @@ var JsonTrapp =
                }    
         },
         extras:'',
-        img1:'',
-        img2:'',
-        img3:'',
-        id:''
+        img1:'Assets/Parqueaderos/Laplazuela/img1.jpg',
+        img2:'Assets/Parqueaderos/Laplazuela/img2.jpg',
+        img3:'Assets/Parqueaderos/Laplazuela/img3.jpg',
+        id:'Laplazuela',
+        idcarrusel:'plazuela'
        },
        {
-        nombre:'',
+        nombre:'La Terminal',
         telefono:'',
         ubicacion:'',
         cupos:
@@ -368,13 +378,14 @@ var JsonTrapp =
                }    
         },
         extras:'',
-        img1:'',
-        img2:'',
-        img3:'',
-        id:''
+        img1:'Assets/Parqueaderos/Laterminal/img1.jpg',
+        img2:'Assets/Parqueaderos/Laterminal/img2.jpg',
+        img3:'Assets/Parqueaderos/Laterminal/img3.jpg',
+        id:'Laterminal',
+        idcarrusel:'terminal'
        },
        {
-        nombre:'',
+        nombre:'San Pedro',
         telefono:'',
         ubicacion:'',
         cupos:
@@ -402,10 +413,11 @@ var JsonTrapp =
                }    
         },
         extras:'',
-        img1:'',
-        img2:'',
-        img3:'',
-        id:''
+        img1:'Assets/Parqueaderos/Sanpedro/img1.jpg',
+        img2:'Assets/Parqueaderos/Sanpedro/img2.jpg',
+        img3:'Assets/Parqueaderos/Sanpedro/img3.jpg',
+        id:'Sanpedro',
+        idcarrusel:'Spedro'
        },
     ],
     
