@@ -1,10 +1,4 @@
-body {
-	height: 1280px;
-	margin: 0;
-	padding: 0;
-  }
+#mapid { 
 
-  #map {
-	height: 720px;
-  }
+	height: 600px; }
 

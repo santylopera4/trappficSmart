@@ -1,0 +1,16 @@
+.credi{
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+}
+.container1{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+	border: 1px solid rgba(0, 0, 0,.5);
+}
+.center{
+    background-repeat: no-repeat;
+    text-align: center;
+}

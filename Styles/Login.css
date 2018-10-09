@@ -1,22 +1,23 @@
-Login
+body
 {
     margin: 0;
     padding: 0;
-    background: url(Assets.1.jpg);
+    background: url(../Assets/imagen\ de\ fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
     background-size: cover;
     font-family: sans-serif;
+    position: fixed;
 }
 .loginBox
 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    position: fixed;
     width: 350px;
     height: 420px;
     padding: 80px 40px;
     box-sizing: border-box;
-    background: rgba(0, 0, 0,.5);
+    background: rgba(0, 0, 0, 0.5);
 }
 .user
 {
@@ -26,16 +27,16 @@ Login
     overflow: hidden;
     position: absolute;
     top: calc(-100px/2);
-    left: calc(50% - 50%);
+    left: calc(35%);
 }
 h2
 {
     margin: 0;
     padding: 0 0 20px;
-    color: #efed40;
+    color: yellow;
     text-align: center;
 }
-.loginBox p
+.loginBox label
 {
     margin: 0;
     padding: 0;
@@ -48,21 +49,26 @@ h2
     width: 100%;
     margin-bottom: 20px;
 }
-.loginBox input[type="text"]
+.loginBox input[type="text"],
 .loginBox input[type="password"]
 {
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
     outline: none;
-    color: #fff;
+    height: 40px;
+    color: white;
     font-size: 16px;
 }
-::placeholder
+::-webkit-input-placeholder
 {
-    color: rgba(255, 255, 255, .5);
+    color: white;
 }
-.loginBox input [type="text"]
+::-moz-placeholder
+{
+    color: white;
+}
+.loginBox input[type="submit"]
 {
     border: none;
     outline: none;
@@ -71,11 +77,11 @@ h2
     font-size: 16px;
     background: #ff257e;
     cursor: pointer;
-    border-radius: 20%;
+    border-radius: 20px;
 }
 .loginBox input[type="submit"]:hover
 {
-    background: #efed40;
+    background: yellow;
     color: #262626;
 }
 .loginBox a
@@ -84,5 +90,8 @@ h2
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
-    
+}
+.loginBox a :hover
+{
+    color: yellow;
 }

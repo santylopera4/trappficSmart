@@ -1,3 +1,7 @@
-const Perfil = {
-    template: `<div></div>`
-}
+Vue.component('per-fil',{
+    props:['item'],
+    template:
+    `<div>
+    Pagina perfil
+    </div>`
+})

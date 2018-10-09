@@ -1,0 +1,98 @@
+header{
+    z-index: 1;
+}
+.col{
+    width: 100%
+} 
+.w-100{
+    max-width: 80%;
+    max-height: 60%;
+    margin: auto;
+
+}
+.par h5{
+    color: #262626;
+}
+.infop{
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.informacion{
+    margin: 40px 0px;
+}
+.menu{
+    margin: auto;
+    color: #ffc400;
+    padding: 0px 10px;
+
+}
+.Nombre{
+    text-align: center;
+    margin: 20px 0px;
+    color: #ffc400;
+}
+.images{
+    margin: 30px 0px;
+}
+strong{
+    padding: 1px 10px;
+    font-size: 25px;
+}
+.imagenes{
+    width: 100px;
+    height: 40%;
+}
+.cl2{
+    margin: 25px auto;
+}
+i{
+    padding:1px 9px;
+    margin-left:auto;
+}
+hr{
+    background-color: #fff;
+    height: 2.5px;
+}
+h5{
+    height: 30px;
+    text-align: center;
+    background-color:  #ffc400;
+    padding: 1px 3px;
+    border: #262626 solid 2px;
+    width: 100%;
+}
+p{
+    text-align: center;
+    color: #d3d3d2;
+}
+.par{
+    width: 100%;
+    align-content: center;
+    margin: auto;
+    font-size: 18px;
+    color: #d3d3d2;
+}
+.reservar{
+    margin: auto;
+     background: rgba(0, 0, 0, 0.7);
+    color: #d3d3d2;
+    height: 100%;
+    justify-content: flex-end;
+    margin-right: 20px;
+    width: 20%;
+    border-radius: 20px;  
+
+}
+.reservar:hover{
+    cursor: pointer;
+    color: #262626;
+    background-color:   #ffc400;
+}
+.boton
+{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
