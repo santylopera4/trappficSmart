@@ -282,7 +282,7 @@ var JsonTrapp =
        {
         nombre:'El Trebol',
         telefono:'',
-        ubicacion:'la bomba',
+        ubicacion:'# a 50-204',
         cupos:
         {
           motos:'motos: 50',
@@ -363,7 +363,7 @@ var JsonTrapp =
           moto:
               {
               rato:'',
-              hora:'hora: $1000',
+              hora:'hora: $1500',
               dia:'dia: $5000',
               noche:'noche: $5000',
               mes:''
