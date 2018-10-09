@@ -1,5 +1,5 @@
 .credi{
-    font-size: 50px;
+    font-size: 50px; 
     color: yellow;
     text-align: center;
 }
@@ -8,9 +8,14 @@
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
-	border: 1px solid rgba(0, 0, 0,.5);
+    border: 1px solid rgba(0, 0, 0,.5);
+    background: rgba(0, 0, 0, 0.589);
 }
 .center{
     background-repeat: no-repeat;
     text-align: center;
+}
+.rol1{
+    color: white;
+    padding: 20px 20px;
 }
