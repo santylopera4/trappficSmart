@@ -10,7 +10,7 @@ Vue.component('not-found',{
 					<p>
 						<span>
 
-						La pagina que estas buscando no exite, por favor asegurate que este bien escrita.. 
+						La pagina que estas buscando no exite, por favor asegurate que este bien escrita!!!
 
 						</span>
 				</p>
