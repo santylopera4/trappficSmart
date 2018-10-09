@@ -7,6 +7,8 @@ Vue.component('prin-cipal', {
       <trapp-nav-mobile :trapp_li_nav="trapp_li_nav" ></trapp-nav-mobile>
       <br>
       <div id="mapid"></div>
+      <br>
+      <br>
 
     </div>`
 }) 

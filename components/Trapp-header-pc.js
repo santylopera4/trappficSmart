@@ -9,7 +9,7 @@ Vue.component('trapp-header-pc',{
            <a class="tituloencabezado" href="#"><h1>{{texto}}</h1></a>
         </div>
         <div class="col2 col col-6">
-        <a href="?infoparqueadero"><img :src="icono" ></a>        
+        <a href="?principal"><img :src="icono" ></a>        
         </div>
     </div>
 </div>
