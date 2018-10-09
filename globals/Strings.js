@@ -54,37 +54,37 @@ var JsonTrapp =
     [
       {
         icono:'Assets/perfil.jpg',
-        miembro:'Jaime Eccavarria',
+        miembro:'Jaime Eccavarria:',
         rol:'docente enlace del concurso nacional'
       },
       {
         icono:'Assets/jose.jpg',
-        miembro:'Jose Arango',
+        miembro:'Jose Arango:',
         rol:'Instructor del concurso nacional'
       },
       {
         icono:'Assets/cristian.jpg',
-        miembro:'Cristian Marin',
+        miembro:'Cristian Marin:',
         rol:'Instructor del concurso nacional'
       },
       {
         icono:'Assets/perfil.jpg',
-        miembro:'Laura Escobar',
+        miembro:'Laura Escobar:',
         rol:'Estudiante del concurso nacional'
       },
       {
         icono:'Assets/Alejandro.jpg',
-        miembro:'Alejandro Gallego',
+        miembro:'Alejandro Gallego:',
         rol:'Estudiante del concurso nacional'
       },
       {
         icono:'Assets/perfil.jpg',
-        miembro:'Daniel Lopera',
+        miembro:'Daniel Lopera:',
         rol:'Estudiante del concurso nacional'
       },
       {
         icono:'Assets/perfil.jpg',
-        miembro:'Santiago lopera',
+        miembro:'Santiago lopera:',
         rol:'Estudiante del concurso nacional'
       }
     ]
