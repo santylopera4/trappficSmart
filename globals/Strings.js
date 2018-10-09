@@ -250,8 +250,8 @@ var JsonTrapp =
         ubicacion:'La Bomba',
         cupos:
         {
-          motos:'10',
-          carros:'42'
+          motos:'no motos',
+          carros:'carros: 150 aprox'
         },
         tarifas:
         {
@@ -266,13 +266,13 @@ var JsonTrapp =
           carro:
                {
                 rato:'',
-                hora:'',
-                dia:'',
-                noche:'',
+                hora:'hora: $2300',
+                dia:'dia: $8000',
+                noche:'noche $8000',
                 mes:''
                }    
         },
-        extras:'',
+        extras:'Taller',
         img1:'Assets/Parqueaderos/Barandales/img1.jpg',
         img2:'Assets/Parqueaderos/Barandales/img2.jpg',
         img3:'Assets/Parqueaderos/Barandales/img3.jpg',
@@ -282,32 +282,32 @@ var JsonTrapp =
        {
         nombre:'El Trebol',
         telefono:'',
-        ubicacion:'',
+        ubicacion:'la bomba',
         cupos:
         {
-          motos:'10',
-          carros:'42'
+          motos:'motos: 50',
+          carros:'carros: 200'
         },
         tarifas:
         {
           moto:
               {
               rato:'',
-              hora:'',
-              dia:'',
-              noche:'',
+              hora:'hora: $1000',
+              dia:'dia: $5000',
+              noche:'noche: $6000',
               mes:''
               },
           carro:
                {
                 rato:'',
-                hora:'',
-                dia:'',
-                noche:'',
+                hora:'hora: $2500',
+                dia:'dia: $10000',
+                noche:'noche: $12000',
                 mes:''
                }    
         },
-        extras:'',
+        extras:'Taller',
         img1:'Assets/Parqueaderos/Eltrebol/img1.jpg',
         img2:'Assets/Parqueaderos/Eltrebol/img2.jpg',
         img3:'Assets/Parqueaderos/Eltrebol/img3.jpg',
@@ -316,33 +316,33 @@ var JsonTrapp =
        },
        {
         nombre:'La Plazuela',
-        telefono:'',
-        ubicacion:'',
+        telefono:'3112946920',
+        ubicacion:'cr 44-102',
         cupos:
         {
-          motos:'10',
-          carros:'42'
+          motos:'motos: 20',
+          carros:'carros: 50'
         },
         tarifas:
         {
           moto:
               {
               rato:'',
-              hora:'',
-              dia:'',
-              noche:'',
+              hora:'hora: $1000',
+              dia:'dia: $6000',
+              noche:'noche: $7000',
               mes:''
               },
           carro:
                {
                 rato:'',
-                hora:'',
-                dia:'',
-                noche:'',
+                hora:'hora: $2500',
+                dia:'dia: $9000',
+                noche:'noche: $9000',
                 mes:''
                }    
         },
-        extras:'',
+        extras:'Taller y Labado',
         img1:'Assets/Parqueaderos/Laplazuela/img1.jpg',
         img2:'Assets/Parqueaderos/Laplazuela/img2.jpg',
         img3:'Assets/Parqueaderos/Laplazuela/img3.jpg',
@@ -355,29 +355,29 @@ var JsonTrapp =
         ubicacion:'',
         cupos:
         {
-          motos:'10',
-          carros:'42'
+          motos:'motos: 30',
+          carros:'carros: 70'
         },
         tarifas:
         {
           moto:
               {
               rato:'',
-              hora:'',
-              dia:'',
-              noche:'',
+              hora:'hora: $1000',
+              dia:'dia: $5000',
+              noche:'noche: $5000',
               mes:''
               },
           carro:
                {
                 rato:'',
-                hora:'',
-                dia:'',
-                noche:'',
+                hora:'hora: $2000',
+                dia:'dia: $8000',
+                noche:'noche: $8000',
                 mes:''
                }    
         },
-        extras:'',
+        extras:'Taller y Labado',
         img1:'Assets/Parqueaderos/Laterminal/img1.jpg',
         img2:'Assets/Parqueaderos/Laterminal/img2.jpg',
         img3:'Assets/Parqueaderos/Laterminal/img3.jpg',
@@ -390,29 +390,29 @@ var JsonTrapp =
         ubicacion:'',
         cupos:
         {
-          motos:'10',
-          carros:'42'
+          motos:'motos: 80',
+          carros:'carros: 150'
         },
         tarifas:
         {
           moto:
               {
               rato:'',
-              hora:'',
-              dia:'',
-              noche:'',
+              hora:'hora: $1000',
+              dia:'dia: $6000',
+              noche:'noche: $6000',
               mes:''
               },
           carro:
                {
                 rato:'',
-                hora:'',
-                dia:'',
-                noche:'',
+                hora:'hora: $2000',
+                dia:'dia: $9500',
+                noche:'noche: $9500',
                 mes:''
                }    
         },
-        extras:'',
+        extras:'Taller',
         img1:'Assets/Parqueaderos/Sanpedro/img1.jpg',
         img2:'Assets/Parqueaderos/Sanpedro/img2.jpg',
         img3:'Assets/Parqueaderos/Sanpedro/img3.jpg',
