@@ -18,4 +18,4 @@ Vue.component('log-in',{
         <a href="index.html?registro">Registrarme</a> 
         <a href="index.html?recuperarcontrasena">Olvidé mi contraseña</a>
     </div>`
-})
+}) 

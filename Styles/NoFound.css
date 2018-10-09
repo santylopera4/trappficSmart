@@ -10,6 +10,7 @@ header{
 }
 .title{
 	margin: 40px 0px;
+	color:#ffc400;
 }
 img{
 	height: 70px;
@@ -26,5 +27,5 @@ img{
 	padding: 50px;
 	margin: auto;
 	width: 40%;
-	background: rgb(0,0,0,0.5)
+	background: rgb(0,0,0,0.6)
 }

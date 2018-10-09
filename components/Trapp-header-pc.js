@@ -4,12 +4,12 @@ Vue.component('trapp-header-pc',{
     `<div>
     <div class="encabezado">
     <div class="container">
-    <div class="row justify-content(center) d-flex-center  ">
-        <div class="col1 col align-self-center col-6">
-           <a href="#"><h1>{{texto}}</h1></a>
+    <div class="row justify-content-center  ">
+        <div class="col1 col  col-6">
+           <a class="tituloencabezado" href="#"><h1>{{texto}}</h1></a>
         </div>
-        <div class="col2 col align-self-auto col-6">
-        <a href="#"><img :src="icono" ></a>        
+        <div class="col2 col col-6">
+        <a href="?infoparqueadero"><img :src="icono" ></a>        
         </div>
     </div>
 </div>

@@ -10,7 +10,7 @@ Vue.component('not-found',{
 					<p>
 						<span>
 
-						Marlon es un crack 
+						La pagina que estas buscando no exite, por favor asegurate que este bien escrita!!!
 
 						</span>
 				</p>
