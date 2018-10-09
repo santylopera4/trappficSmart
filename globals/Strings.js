@@ -487,7 +487,7 @@ var JsonTrapp =
         rol:'Instructor del concurso nacional'
       },
       {
-        icono:'Assets/perfil.jpg',
+        icono:'Assets/Laura.jpg',
         miembro:'Laura Escobar:',
         rol:'Estudiante del concurso nacional'
       },
@@ -497,17 +497,17 @@ var JsonTrapp =
         rol:'Estudiante del concurso nacional'
       },
       {
-        icono:'Assets/perfil.jpg',
+        icono:'Assets/Daniel.jpg',
         miembro:'Daniel Lopera:',
         rol:'Estudiante del concurso nacional'
       },
       {
-        icono:'Assets/perfil.jpg',
+        icono:'Assets/Santiago.jpg',
         miembro:'Santiago lopera:',
         rol:'Estudiante del concurso nacional'
       },
       {
-        icono:'Assets/perfil.jpg',
+        icono:'Assets/Profe.jpg',
         miembro:'Jaime Eccavarria:',
         rol:'Docente enlace del concurso nacional'
       }

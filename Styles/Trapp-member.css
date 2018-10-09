@@ -13,8 +13,8 @@
 }
 .titulo{
 	position: relative;
-	right: 37%;
 	color: yellow;
+	font-size: 20px;
 }
 .rol{
 	color: white;
