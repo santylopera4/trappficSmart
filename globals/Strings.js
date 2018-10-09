@@ -477,18 +477,13 @@ var JsonTrapp =
     Trapp_member:
     [
       {
-        icono:'Assets/perfil.jpg',
-        miembro:'Jaime Eccavarria:',
-        rol:'docente enlace del concurso nacional'
-      },
-      {
         icono:'Assets/jose.jpg',
         miembro:'Jose Arango:',
         rol:'Instructor del concurso nacional'
       },
       {
         icono:'Assets/cristian.jpg',
-        miembro:'Cristian Marin:',
+        miembro:'Cristian Marín:',
         rol:'Instructor del concurso nacional'
       },
       {
@@ -510,6 +505,11 @@ var JsonTrapp =
         icono:'Assets/perfil.jpg',
         miembro:'Santiago lopera:',
         rol:'Estudiante del concurso nacional'
+      },
+      {
+        icono:'Assets/perfil.jpg',
+        miembro:'Jaime Eccavarria:',
+        rol:'Docente enlace del concurso nacional'
       }
     ]
 }

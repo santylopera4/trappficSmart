@@ -43,7 +43,7 @@
             <log-in></log-in>
         </div>
         <div v-else-if="currentRoute == '?creditos'">
-            <cre-ditos :array="Strings.Trapp_member"></cre-ditos>
+            <cre-ditos :array="Strings.Trapp_member" :trapp_li_nav="Strings.trapp_li_nav" :trapp_header="Strings.trapp_header" :icono="Strings.trapp_header['icono']" :texto="Strings.trapp_li_nav[0].texto"></cre-ditos>
         </div>
         <div v-else-if="currentRoute == '?infoparqueadero'">
             <info-parqueadero :trapp_li_nav="Strings.trapp_li_nav" :info_parqueadero="Strings.info_parqueadero" :trapp_header="Strings.trapp_header" :icono="Strings.trapp_header['icono']" :texto="Strings.trapp_li_nav[0].texto" ></info-parqueadero>
