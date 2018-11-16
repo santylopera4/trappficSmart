@@ -10,7 +10,7 @@ Vue.component('cre-ditos', {
             <h1 class="credi">Creditos</h1>
             <p class="rol1">
             Esta página web está desarrollada por un excelente grupo, conformado por los instructores Cristian Marín 
-            y Jose Arango, que pudieron enseñar a los estudiantes a comprender el lenguaje de programación HTML, css y javascript, los estudiantes 
+            y Jose Arango, que pudieron enseñar a los estudiantes a comprender el lenguaje de programación javascript, los estudiantes 
             Daniel Lopera, Laura Escobar, Santiago Lopera y Alejandro Gallego son el grupo de
             programadores que le dieron cuerpo y estilo a la página web, y otro de los integrantes importantes de este grupo es el profesor Jaime Echavarría,
             su papel fue guiar a los estudiantes para el desarrollo de las páginas web,además de que él es el Docente enlace que tiene el grupo de 
