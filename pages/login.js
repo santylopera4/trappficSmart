@@ -6,16 +6,17 @@ Vue.component('log-in',{
             <img src="Assets/perfil.jpg" class="user">  
             <h2>Iniciar Sesión</h2>
 
-        <form>
         <i class="fas fa-user"></i>
-        <label>Usuario</label>
-        <input type="text" name="" placeholder="Ingrese su nombre de usuario">
+        <label for="email">Usuario</label>
+        <input type="text" name="email" id="txtEmail" placeholder="Ingrese su nombre de usuario">
         <i class="fas fa-unlock"></i>
-        <label>Contraseña</label>
-        <input type="password" name="" placeholder="Ingrese su contraseña">
-        </form>
-        <input type="submit" name="" value="Ingresar">
+        <label for="password">Contraseña</label>
+        <input type="password"  name="password" id="txtpassword" placeholder="Ingrese su contraseña">
+        <input type="submit" id="btnLogin"  name="ingrear" value="Ingresar">
+        <input type="submit" id="btnSiginUp" name="ingrear" value="registrarse">
+              
         <a href="index.html?registro">Registrarme</a> 
         <a href="index.html?recuperarcontrasena">Olvidé mi contraseña</a>
+        </div> 
     </div>`
-}) 
+})  
