@@ -1,7 +1,7 @@
-Vue.component('info-parqueadero',{
-    props:['trapp_li_nav','info_parqueadero','trapp_header','icono','texto'],
-    template:
-`<div> 
+Vue.component('info-parqueadero', {
+  props: ['trapp_li_nav', 'info_parqueadero', 'trapp_header', 'icono', 'texto'],
+  template:
+    `<div> 
         <div>   
                 <trapp-header-pc :icono="trapp_header.icono" :texto="trapp_li_nav[1].texto"></trapp-header-pc> 
 
@@ -88,14 +88,14 @@ Vue.component('info-parqueadero',{
                             <p v-text="item.extras"></p>
                             </div>
 
-                            </div>
-                      
-                              <!--
-                              <div class="boton">
-                              <button class="reservar">Reservar</button>
+                            </div class= "row">
+                              <div class="col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 boton">
+                              <br>
+                              <br><br><br>
+                              <input class="reservar" type="button" value="Reservar" onclick="mostrarAlerta()"/>
                               </div>
                               <br>
-                              -->
+                              
                       </div>
                 </div> 
               <br>
