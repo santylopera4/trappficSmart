@@ -18,6 +18,12 @@ img{
     display: grid;    
     margin: auto;
 }
+.fila2 
+{    
+    height: 30px;
+    width: 100%;
+    left: 0;
+}
 .col a
 {
     text-decoration: none;
