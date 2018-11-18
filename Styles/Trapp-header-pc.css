@@ -1,7 +1,7 @@
 .encabezado{
     width: 100%;
     height: 60px;
-    background-color: #ffc400;
+    background-color: white;
 }
 .col2 {
     height: 60px;
@@ -27,11 +27,12 @@ img{
 {
   color: #262626;
   text-align: center;
+  font-weight: bold;
   
 }
 .col1 a h1:hover{
     text-decoration:active;
-    color: black;
+    color: gray;
 }
 @media(min-width:320px) and (max-width:640px){
 

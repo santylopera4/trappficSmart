@@ -3,7 +3,7 @@ Vue.component('trapp-nav-mobile', {
   template:
     `<div>
     <nav  class=" container-fluid navbar  navbar-expand-md navbar- bg-  sidebarNavigation"  data-sidebarClass="nav1 navbar- bg- " >
-           <h2 class="menu">Menu</h2>
+           <h2 class="menu">Menú</h2>
         <button class="navbar-toggler leftNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>

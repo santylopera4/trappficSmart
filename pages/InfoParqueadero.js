@@ -53,12 +53,12 @@ Vue.component('info-parqueadero',{
                             <div class="row">
 
                             <div class="col col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 par">
-                            <h5><i class="fas fa-phone"></i>Telefono:</h5>
+                            <h5><i class="fas fa-phone"></i>Teléfono</h5>
                             <p v-text="item.telefono"></p>
                             </div>
 
                             <div class="col col-12 col-md-12 col-sm-12  col-lg-6 col-xl-6 par">        
-                            <h5><i class="fas fa-map-marker-alt"></i>Ubicacion:</h5>
+                            <h5><i class="fas fa-map-marker-alt"></i>Ubicación</h5>
                             <p v-text="item.ubicacion"></p>
                             </div>
 
@@ -66,25 +66,27 @@ Vue.component('info-parqueadero',{
                             <div class="row">
 
                             <div class="col col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 par">        
-                            <h5><strong>#</strong>Cupos:</h5>
+                            <h5><strong>#</strong>Cupos</h5>
                             <p><span v-text="item.cupos.motos"></span><br>  <span v-text="item.cupos.carros"></span></p>
                             </div>
 
                             <div class="col col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 par">        
-                            <h5><i class="fas fa-dollar-sign"></i>Tarifas:</h5>
+                            <h5><i class="fas fa-dollar-sign"></i>Tarifas</h5>
                             
-                            <p><strong>Motos:</strong>    <strong>Carros:</strong><br><span v-text="item.tarifas.moto.hora"></span>    <span v-text="item.tarifas.carro.hora"></span></p>
+                            
+                            <p><strong>Motos:</strong>                          <strong>Carros:</strong><br><span v-text="item.tarifas.moto.hora"></span>    <span v-text="item.tarifas.carro.hora"></span></p>
                             <p><span v-text="item.tarifas.moto.rato"></span>    <span v-text="item.tarifas.carro.rato"></span></p>
-                            <p><span v-text="item.tarifas.moto.dia"></span>   <span v-text="item.tarifas.carro.dia"></span></p>
-                            <p><span v-text="item.tarifas.moto.noche"></span>    <span v-text="item.tarifas.carro.noche"></span></p>
-                            <p><span v-text="item.tarifas.moto.mes"></span>   <span v-text="item.tarifas.carro.mes"></span></p>
+                            <p><span v-text="item.tarifas.moto.dia"></span>     <span v-text="item.tarifas.carro.dia"></span></p>
+                            <p><span v-text="item.tarifas.moto.noche"></span>   <span v-text="item.tarifas.carro.noche"></span></p>
+                            <p><span v-text="item.tarifas.moto.mes"></span>     <span v-text="item.tarifas.carro.mes"></span></p>
+                            
                             </div>
 
                             </div>
                             <div class="row">
 
                             <div class="col col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 par">        
-                            <h5><strong> +</strong>Extras:</h5>
+                            <h5><strong> +</strong>Extras</h5>
                             <p v-text="item.extras"></p>
                             </div>
 

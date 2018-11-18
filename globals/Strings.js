@@ -15,14 +15,14 @@ var JsonTrapp =
                 moto:
                     {
                     rato:'Rato: $5,000',
-                    dia:'Día: $12,000 24h',
+                    dia:'Día: $12,000',
                     noche:'',
                     mes:'Mes: $75,000'
                     },
                 carro:
                      {
                       rato:'Rato: $5,000',
-                      dia:'Día: $12,000 24h',
+                      dia:'Día: $12,000',
                       noche:'',
                       mes:'Mes: $75,000'
                      }    
@@ -36,7 +36,7 @@ var JsonTrapp =
       },
       {
         nombre:'Full Autos Belén',
-        telefono:'...',
+        telefono:'',
         ubicacion:'Cll 49 N°51a-98',
         cupos:
         {
@@ -71,7 +71,7 @@ var JsonTrapp =
        },
        {
         nombre:'El Faro',
-        telefono:'...',
+        telefono:'',
         ubicacion:'Centro Comercial el Faro',
         cupos:
         {
@@ -106,7 +106,7 @@ var JsonTrapp =
        },
        {
         nombre:'Parqueadero Michus',
-        telefono:'...',
+        telefono:'',
         ubicacion:'Crr 50 N° 47-51',
         cupos:
         {
@@ -141,7 +141,7 @@ var JsonTrapp =
        },
        {
         nombre:'El Desvare',
-        telefono:'....',
+        telefono:'',
         ubicacion:'Cll 49 N° 51a-98',
         cupos:
         {
@@ -176,11 +176,11 @@ var JsonTrapp =
        },
        {
         nombre:'La Capilla',
-        telefono:'...',
+        telefono:'',
         ubicacion:'Calle del Cementerio',
         cupos:
         {
-          motos:'Solo Carros',
+          motos:'Solo carros',
           carros:'Carros: 100 Aprox'
         },
         tarifas:
@@ -188,7 +188,7 @@ var JsonTrapp =
           moto:
               {
               rato:'',
-              hora:'solo carros',
+              hora:'',
               dia:'',
               noche:'',
               mes:''
@@ -211,12 +211,12 @@ var JsonTrapp =
        },
        {
         nombre:'La 49',
-        telefono:'...',
+        telefono:'',
         ubicacion:'Call 49 ',
         cupos:
         {
           motos:'Motos: 200 Aprox',
-          carros:'Solo Motos'
+          carros:'Solo motos'
         },
         tarifas:
         {
@@ -224,15 +224,15 @@ var JsonTrapp =
               {
               rato:'',
               hora:'Hora: $1,000',
-              dia:'Dia: $4,000',
+              dia:'Día: $4,000',
               noche:'',
               mes:''
               },
           carro:
                {
                 rato:'',
-                hora:'solo motos',
-                dia:'solo motos',
+                hora:'',
+                dia:'',
                 noche:'',
                 mes:''
                }    
@@ -246,12 +246,12 @@ var JsonTrapp =
        },
        {
         nombre:'Barandales',
-        telefono:'....',
+        telefono:'',
         ubicacion:'La Bomba',
         cupos:
         {
-          motos:'no motos',
-          carros:'carros: 150 aprox'
+          motos:'Solo carros',
+          carros:'Carros: 150 aprox'
         },
         tarifas:
         {
@@ -266,9 +266,9 @@ var JsonTrapp =
           carro:
                {
                 rato:'',
-                hora:'hora: $2300',
-                dia:'dia: $8000',
-                noche:'noche $8000',
+                hora:'Hora: $2300',
+                dia:'Día: $8000',
+                noche:'Noche: $8000',
                 mes:''
                }    
         },
@@ -285,25 +285,25 @@ var JsonTrapp =
         ubicacion:'# a 50-204',
         cupos:
         {
-          motos:'motos: 50',
-          carros:'carros: 200'
+          motos:'Motos: 50',
+          carros:'Carros: 200'
         },
         tarifas:
         {
           moto:
               {
               rato:'',
-              hora:'hora: $1000',
-              dia:'dia: $5000',
-              noche:'noche: $6000',
+              hora:'Hora: $1000',
+              dia:'Día: $5000',
+              noche:'Noche: $6000',
               mes:''
               },
           carro:
                {
                 rato:'',
-                hora:'hora: $2500',
-                dia:'dia: $10000',
-                noche:'noche: $12000',
+                hora:'Hora: $2500',
+                dia:'Día: $10000',
+                noche:'Noche: $12000',
                 mes:''
                }    
         },
@@ -320,25 +320,25 @@ var JsonTrapp =
         ubicacion:'cr 44-102',
         cupos:
         {
-          motos:'motos: 20',
-          carros:'carros: 50'
+          motos:'Motos: 20',
+          carros:'Carros: 50'
         },
         tarifas:
         {
           moto:
               {
               rato:'',
-              hora:'hora: $1000',
-              dia:'dia: $6000',
-              noche:'noche: $7000',
+              hora:'Hora: $1000',
+              dia:'Día: $6000',
+              noche:'Noche: $7000',
               mes:''
               },
           carro:
                {
                 rato:'',
-                hora:'hora: $2500',
-                dia:'dia: $9000',
-                noche:'noche: $9000',
+                hora:'Hora: $2500',
+                dia:'Día: $9000',
+                noche:'Noche: $9000',
                 mes:''
                }    
         },
@@ -355,25 +355,25 @@ var JsonTrapp =
         ubicacion:'',
         cupos:
         {
-          motos:'motos: 30',
-          carros:'carros: 70'
+          motos:'Motos: 30',
+          carros:'Carros: 70'
         },
         tarifas:
         {
           moto:
               {
               rato:'',
-              hora:'hora: $1500',
-              dia:'dia: $5000',
-              noche:'noche: $5000',
+              hora:'Hora: $1500',
+              dia:'Día: $5000',
+              noche:'Noche: $5000',
               mes:''
               },
           carro:
                {
                 rato:'',
-                hora:'hora: $2000',
-                dia:'dia: $8000',
-                noche:'noche: $8000',
+                hora:'Hora: $2000',
+                dia:'Día: $8000',
+                noche:'Noche: $8000',
                 mes:''
                }    
         },
@@ -390,25 +390,25 @@ var JsonTrapp =
         ubicacion:'',
         cupos:
         {
-          motos:'motos: 80',
-          carros:'carros: 150'
+          motos:'Motos: 80',
+          carros:'Carros: 150'
         },
         tarifas:
         {
           moto:
               {
               rato:'',
-              hora:'hora: $1000',
-              dia:'dia: $6000',
-              noche:'noche: $6000',
+              hora:'Hora: $1000',
+              dia:'Día: $6000',
+              noche:'Noche: $6000',
               mes:''
               },
           carro:
                {
                 rato:'',
-                hora:'hora: $2000',
-                dia:'dia: $9500',
-                noche:'noche: $9500',
+                hora:'Hora: $2000',
+                dia:'Día: $9500',
+                noche:'Noche: $9500',
                 mes:''
                }    
         },
@@ -465,7 +465,7 @@ var JsonTrapp =
       },*/
       {
        icono:'fas fa-user-circle',
-       texto:'Creditos',
+       texto:'Créditos',
        link:'?creditos'
      },
       /*{
@@ -479,37 +479,37 @@ var JsonTrapp =
       {
         icono:'Assets/jose.jpg',
         miembro:'Jose Arango:',
-        rol:'Instructor del concurso nacional'
+        rol:'Instructor del Concurso Nacional'
       },
       {
         icono:'Assets/cristian.jpg',
         miembro:'Cristian Marín:',
-        rol:'Instructor del concurso nacional'
+        rol:'Instructor del Concurso Nacional'
       },
       {
         icono:'Assets/laura.jpg',
         miembro:'Laura Escobar:',
-        rol:'Estudiante del concurso nacional'
+        rol:'Estudiante del Concurso Nacional'
       },
       {
         icono:'Assets/Alejandro.jpg',
         miembro:'Alejandro Gallego:',
-        rol:'Estudiante del concurso nacional'
+        rol:'Estudiante del Concurso Nacional'
       },
       {
         icono:'Assets/daniel.jpg',
         miembro:'Daniel Lopera:',
-        rol:'Estudiante del concurso nacional'
+        rol:'Estudiante del Concurso Nacional'
       },
       {
         icono:'Assets/santiago.jpg',
-        miembro:'Santiago lopera:',
-        rol:'Estudiante del concurso nacional'
+        miembro:'Santiago Lopera:',
+        rol:'Estudiante del Concurso Nacional'
       },
       {
         icono:'Assets/profe.jpg',
-        miembro:'Jaime Eccavarria:',
-        rol:'Docente enlace del concurso nacional'
+        miembro:'Jaime Echavarría:',
+        rol:'Docente Enlace del Concurso Nacional'
       }
     ]
 }

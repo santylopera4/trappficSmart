@@ -22,14 +22,15 @@ header{
 }
 .menu{
     margin: auto;
-    color: #ffc400;
+    color: white;
     padding: 0px 10px;
 
 }
 .Nombre{
     text-align: center;
     margin: 20px 0px;
-    color: #ffc400;
+    color: white;
+    font-weight: bold;
 }
 .images{
     margin: 30px 0px;
@@ -56,10 +57,13 @@ hr{
 h5{
     height: 30px;
     text-align: center;
-    background-color:  #ffc400;
+    background-color: white;
     padding: 1px 3px;
     border: #262626 solid 2px;
+    border-radius: 15px;
     width: 100%;
+    font-weight: bold;
+
 }
 p{
     text-align: center;
@@ -86,7 +90,7 @@ p{
 .reservar:hover{
     cursor: pointer;
     color: #262626;
-    background-color:   #ffc400;
+    background-color: white;
 }
 .boton
 {

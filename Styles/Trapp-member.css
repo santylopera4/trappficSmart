@@ -3,18 +3,19 @@
 	height: 80px;
 	display: block;
 	border-radius : 50%;
-	border: 1px solid rgba(0, 0, 0,.5);
+	border: 1px solid white;
 	;
 }
 .tx {
-	position:relative;
+	position: relative;
 	bottom: 40px;
 	left: 70px;
 }
 .titulo{
 	position: relative;
-	color: yellow;
+	color: whitesmoke;
 	font-size: 20px;
+	font-weight: bold;
 }
 .rol{
 	color: white;

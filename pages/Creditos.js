@@ -7,17 +7,12 @@ Vue.component('cre-ditos', {
             <trapp-nav-mobile :trapp_li_nav="trapp_li_nav" ></trapp-nav-mobile>
         </div>
         <div class = "container1"><br>
-            <h1 class="credi">Creditos</h1>
+            <h1 class="credi">Créditos</h1>
             <p class="rol1">
-            Esta página web está desarrollada por un excelente grupo, conformado por los instructores Cristian Marín 
-            y Jose Arango, que pudieron enseñar a los estudiantes a comprender el lenguaje de programación javascript, los estudiantes 
-            Daniel Lopera, Laura Escobar, Santiago Lopera y Alejandro Gallego son el grupo de
-            programadores que le dieron cuerpo y estilo a la página web, y otro de los integrantes importantes de este grupo es el profesor Jaime Echavarría,
-            su papel fue guiar a los estudiantes para el desarrollo de las páginas web,además de que él es el Docente enlace que tiene el grupo de 
-            estudiantes.
+            Este aplicativo web fue desarrollado con el objetivo de mejorar la movilidad vehicular en la malla vial. Para obtener estos resultados se creó el equipo llamado Trappfic Smart, conformado por el docente de enlace Jaime Echavarría, quien apoyó a los integrantes en todo el proceso, los mentores Cristian Marín y Jose Arango, los cuales tuvieron la capacidad de transmitir sus conocimientos a los estudiantes participantes del proyecto y los alumnos Daniel Lopera, Laura Escobar, Alejandro Gallego y Santiago Lopera, responsables de trabajar arduamente para culminar este propósito. 
             </p>
             <br>
-            <h1 class="credi">Miembros:</h1><br>
+            <h1 class="credi">Miembros</h1><br>
             <trapp-member v-for="item in array" :icono="item.icono" :miembro="item.miembro" :rol="item.rol"></trapp-member>
             <br><br><br><br><br><br><br><br>
             </div>

@@ -1,21 +1,21 @@
 .credi{
     font-size: 50px; 
-    color: yellow;
+    color: whitesmoke;
     text-align: center;
 }
 .container1{
     width: 100%;
     max-width: 1000px;
     margin: auto;
+    padding: 20px; 
     overflow: hidden;
-    border: 1px solid rgba(0, 0, 0,.5);
     background: rgba(0, 0, 0, 0.589);
 }
 .center{
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     text-align: center;
 }
 .rol1{
     color: white;
-    padding: 20px 20px;
+    padding: 30px 30px;
 }
