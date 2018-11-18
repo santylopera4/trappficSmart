@@ -8,16 +8,17 @@ body
     width: 100%;
     background-size: cover;
     font-family: sans-serif;
-    position: fixed;
+    position: absolute;
 }
 .loginBox
-{
-    position: fixed;
+{   
+    position: fixed; 
     width: 350px;
     height: 420px;
     padding: 80px 40px;
     box-sizing: border-box;
     background: rgba(0, 0, 0, 0.5);
+    margin: 220px auto;
 }
 .user
 {
@@ -95,3 +96,4 @@ h2
 {
     color: yellow;
 }
+
