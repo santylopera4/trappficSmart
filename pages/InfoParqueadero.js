@@ -106,7 +106,7 @@ Reservar
   <h4 class="modal-title" id="myModalLabel">Tu reservación se ha inscrito</h4>
 </div>
 <div class="modal-body">
-Tu codigo de reservación <h4> # 69 </h4> ha sido aprobado. Debes presentarlo al momento de tu ingreso    </div>
+Tu codigo de reservación <h4> # 000069 </h4> ha sido aprobado. Debes presentarlo al momento de tu ingreso    </div>
 <div class="modal-footer">
   <button type="button" class="btn btn-default" data-dismiss="modal">Abandonar Reservación</button>
   <button type="button" v-on:click="contador "class="btn btn-primary">Aceptar</button>
