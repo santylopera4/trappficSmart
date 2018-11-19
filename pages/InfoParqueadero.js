@@ -1,4 +1,4 @@
-Vue.component('info-parqueadero', {
+﻿Vue.component('info-parqueadero', {
   props: ['trapp_li_nav', 'info_parqueadero', 'trapp_header', 'icono', 'texto'],
   template:
   `<div> 
@@ -64,7 +64,6 @@ Vue.component('info-parqueadero', {
 
                       </div>
                       <div class="row">
-
                       <div class="col col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 par">        
                       <h5><strong>#</strong>Cupos</h5>
                       <p><span v-text="item.cupos.motos"></span><br>  <span v-text="item.cupos.carros"></span></p>
@@ -130,7 +129,7 @@ Tu codigo de reservación <h4> # 000069 </h4> ha sido aprobado. Debes presentarl
 data: function () {
 return {
 contador: function () {
-  open('pages/crono2.html', '', 'top=300,left=300,width=400,height=300');
+  open('?cronometro', '', 'top=300,left=300,width=400,height=300');
 }
 
 
