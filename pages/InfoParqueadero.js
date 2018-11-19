@@ -64,7 +64,6 @@ Vue.component('info-parqueadero', {
 
                       </div>
                       <div class="row">
-
                       <div class="col col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 par">        
                       <h5><strong>#</strong>Cupos</h5>
                       <p><span v-text="item.cupos.motos"></span><br>  <span v-text="item.cupos.carros"></span></p>
