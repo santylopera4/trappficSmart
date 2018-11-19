@@ -2,13 +2,18 @@ body
 {
     margin: 0;
     padding: 0;
-    background: url(../Assets/imagen\ de\ fondo.jpg);
+    background: url(../Assets/traffic.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
     font-family: sans-serif;
     position: absolute;
+}
+.loginBox i[class="fas fa-user"],
+.loginBox i[class="fas fa-unlock"]
+{
+    color: #fff;
 }
 .loginBox
 {   
@@ -18,7 +23,7 @@ body
     padding: 80px 40px;
     box-sizing: border-box;
     background: rgba(0, 0, 0, 0.5);
-    margin: 220px auto;
+    margin: 320px auto;
 }
 .user
 {
@@ -34,8 +39,9 @@ h2
 {
     margin: 0;
     padding: 0 0 20px;
-    color: yellow;
+    color: whitesmoke;
     text-align: center;
+    font-weight: bold;
 }
 .loginBox label
 {
@@ -74,16 +80,16 @@ h2
     border: none;
     outline: none;
     height: 40px;
-    color: #fff;
+    color: black;
     font-size: 16px;
-    background: #ff257e;
+    background: #fff;
     cursor: pointer;
     border-radius: 20px;
 }
 .loginBox input[type="submit"]:hover
 {
-    background: yellow;
-    color: #262626;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
 }
 .loginBox a
 {
