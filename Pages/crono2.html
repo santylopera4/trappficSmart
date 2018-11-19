@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>TIEMPO ESTIMADO DE VIDA DEL TICKET</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
+	<style>
+		div.container{
+			padding:10px;
+		}
+		
+		.mdi-action-alarm{
+			color: white;
+			font-size: 95px;
+			text-shadow:5px 5px rgb(255, 255, 255);
+		}
+		h2{
+			margin-top: 0 !important;
+		}
+		h2.texto{
+			color:#FFF;
+			font-family: "Lato",sans-serif;
+			font-size: 30px;
+			font-weight: bold;
+			margin:0;
+		}
+		#Scroll{
+			display: none;
+			position: fixed;
+			top:0;
+		}
+		h2.counter1{
+			color:#FFF;
+			display: inline-block;
+			font-family: "Lato",sans-serif;
+			font-size: 50px;
+			font-weight: bold;
+			margin-bottom: 0px;
+			margin-right:10px;			
+			margin-top:0px;
+			text-shadow:4px 4px #007A7A;
+		}
+		h2.counter{
+			color:#FFF;
+			display: inline-block;
+			font-family: "Lato",sans-serif;
+			font-size: 50px;
+			font-weight: bold;
+			margin-bottom: 0px;
+			margin-right:10px;
+			margin-top:0px;
+			text-shadow:4px 4px #007A7A;
+		}
+		h2.counter:before{
+			content: ": ";
+			position: relative;
+			right: 0.1em;
+		}
+		div.pre{
+			margin-top: -15px;
+		}
+		.pre{
+			font-family: "Lato",sans-serif;
+			font-size: 15px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		p.time-rest{
+			color:#FFF;
+			font-family: "Lato",sans-serif;
+			font-size: 18px;
+			font-weight: bold;
+			margin-bottom: -10px;
+			margin: 0;
+		}
+		.btn-shop{
+			background-color: #000000 !important;
+			font-family: "Lato",sans-serif;
+			font-size: 18px;
+			font-weight: bold;
+			margin-top: -15px;
+		}
+		.de{
+			color: rgba(255, 255, 255, 0.7);
+				}
+		@media screen and (max-width: 992px){
+			.img-responsive{
+				display: none;
+			}
+			.mdi-action-alarm{
+				font-size: 50px;
+			}
+			h2.texto{
+				font-size: 18px;
+			}
+			p.time-rest{
+				font-size: 11px;
+			}
+			#quedan{
+				font-size: 13px !important;
+				margin-top:15px;
+			}
+			h2.counter{
+				font-size: 35px;
+				margin-top: 10px !important;
+			}
+			h2.counter1{
+				font-size: 35px;
+				margin-top: 10px !important;
+			}
+			div.pre span{
+				font-size: 10px;
+				margin-right: 18px;
+			}
+			.btn-shop{
+				margin-top: -9px !important;
+			}
+			.ticket{
+				margin-top: 15px;
+			}
+		}
+		.inline-block{
+			display:inline-block;
+		}
+		.block{
+			display: block;
+		}
+		</style>
+</head>
+<body>
+	<div id="flash_sales" style="background:rgb(0, 0, 0);">
+		<div class="container">
+			<div class="col-xs-12">
+				<div class="col-md-5 col-xs-10">
+						<h2 class="texto">TIEMPO LIMITE</h2>
+						<h2 class="texto">PARA SU TICKET</h2>
+						<p class="time-rest" style="color:rgb(255, 255, 255)">LO ESTAMOS ESPERANDO</p>
+				</div>
+				<div class="ticket col-md-3 col-xs-12" >
+				</div>
+				<div class="col-md-4 col-xs-12 reloj">
+					<p id="quedan" class="time-rest">FALTAN:</p>
+					<div class="inline-block">
+						<h2 class="counter1" id="dias">00</h2>
+						<span class="pre block de">días</span>
+					</div>
+					<div class="inline-block">
+						<h2 class="counter" id="horas">00</h2>
+						<span class="pre block de">horas</span>
+					</div>
+					<div class="inline-block de">
+						<h2 class="counter" id="min">00</h2>
+						<span class="pre block">min</span>
+					</div>
+					<div class="inline-block de">
+						<h2 class="counter" id="seg">00</h2>
+						<span class="pre block">seg</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="count.js"></script>
+</body>
+</html>
