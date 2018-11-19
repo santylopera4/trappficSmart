@@ -34,7 +34,7 @@ Vue.component('log-in', {
                 const promise = auth.signInWithEmailAndPassword(email, pass);
                 promise.then(e => window.location.href="?principal");
                 
-                promise.catch(e => alert("verifica que el coreo y la contraseña esten bien escritas"));
+                promise.catch(e => alert("Verifica que el correo y la contraseña estén bien escritos"));
 
             },
             registro: function () {
@@ -50,9 +50,9 @@ Vue.component('log-in', {
                 const auth = firebase.auth();
 
                 const promise = auth.createUserWithEmailAndPassword(email, pass);
-                promise.then(e => alert("el correo se registro correctamente, por favor logeate para verificar tu correo "));
+                promise.then(e => alert("El correo se registró correctamente, por favor logueate para verificar tu cuenta"));
                 
-                promise.catch(e => alert("El usuario y la contraseña ya exixten"));
+                promise.catch(e => alert("El usuario y la contraseña ya existen"));
 
             }
         }
