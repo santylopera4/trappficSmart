@@ -3,7 +3,7 @@ var JsonTrapp =
     info_parqueadero:[
       {
        nombre:'San Mateo',
-       telefono:'',
+       telefono:'####',
        ubicacion:'Crr 49 N° 46-37',
        cupos:
              {
@@ -36,7 +36,7 @@ var JsonTrapp =
       },
       {
         nombre:'Full Autos Belén',
-        telefono:'',
+        telefono:'####',
         ubicacion:'Cll 49 N°51a-98',
         cupos:
         {
@@ -71,7 +71,7 @@ var JsonTrapp =
        },
        {
         nombre:'El Faro',
-        telefono:'',
+        telefono:'####',
         ubicacion:'Centro Comercial el Faro',
         cupos:
         { 
@@ -106,7 +106,7 @@ var JsonTrapp =
        },
        {
         nombre:'Parqueadero Michus',
-        telefono:'',
+        telefono:'####',
         ubicacion:'Crr 50 N° 47-51',
         cupos:
         {
@@ -141,7 +141,7 @@ var JsonTrapp =
        },
        {
         nombre:'El Desvare',
-        telefono:'',
+        telefono:'####',
         ubicacion:'Cll 49 N° 51a-98',
         cupos:
         {
@@ -176,7 +176,7 @@ var JsonTrapp =
        },
        {
         nombre:'La Capilla',
-        telefono:'',
+        telefono:'####',
         ubicacion:'Calle del Cementerio',
         cupos:
         {
@@ -211,7 +211,7 @@ var JsonTrapp =
        },
        {
         nombre:'La 49',
-        telefono:'',
+        telefono:'####',
         ubicacion:'Call 49 ',
         cupos:
         {
@@ -246,7 +246,7 @@ var JsonTrapp =
        },
        {
         nombre:'Barandales',
-        telefono:'',
+        telefono:'####',
         ubicacion:'La Bomba',
         cupos:
         {
@@ -281,7 +281,7 @@ var JsonTrapp =
        },
        {
         nombre:'El Trebol',
-        telefono:'',
+        telefono:'####',
         ubicacion:'# a 50-204',
         cupos:
         {
@@ -351,7 +351,7 @@ var JsonTrapp =
        },
        {
         nombre:'La Terminal',
-        telefono:'',
+        telefono:'####',
         ubicacion:'',
         cupos:
         {
@@ -386,7 +386,7 @@ var JsonTrapp =
        },
        {
         nombre:'San Pedro',
-        telefono:'',
+        telefono:'####',
         ubicacion:'',
         cupos:
         {
