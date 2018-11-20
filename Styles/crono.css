@@ -1,120 +1,79 @@
-div.container{
-    padding:10px;
-}
 
-.mdi-action-alarm{
-    color: white;
-    font-size: 95px;
-    text-shadow:5px 5px rgb(255, 255, 255);
+div.container
+{
+    padding:10px;
+    align-self: center;
 }
-h2{
-    margin-top: 0 !important;
-}
-h2.texto{
+h2.textocrono
+{
     color:#FFF;
     font-family: "Lato",sans-serif;
     font-size: 30px;
     font-weight: bold;
     margin:0;
 }
-#Scroll{
-    display: none;
-    position: fixed;
-    top:0;
+.cronometro
+{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6)
 }
-h2.counter1{
+.info
+{    
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.reloj
+{
+    padding-top: 50px;
+}
+.textocrono
+{
+    width: 100%;
+    text-align: center;
+}
+.pre
+{
+    text-align: center;
+}
+h2.counter1
+{
     color:#FFF;
     display: inline-block;
     font-family: "Lato",sans-serif;
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 0px;
-    margin-right:10px;			
+    margin-right:auto;			
     margin-top:0px;
     text-shadow:4px 4px #007A7A;
 }
-h2.counter{
+h2.counter
+{
     color:#FFF;
     display: inline-block;
     font-family: "Lato",sans-serif;
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 0px;
-    margin-right:10px;
+    margin-right:auto;
     margin-top:0px;
     text-shadow:4px 4px #007A7A;
 }
-h2.counter:before{
+h2.counter:before
+{
     content: ": ";
     position: relative;
     right: 0.1em;
 }
-div.pre{
-    margin-top: -15px;
-}
-.pre{
-    font-family: "Lato",sans-serif;
-    font-size: 15px;
-    text-align: center;
-    text-transform: uppercase;
-}
-p.time-rest{
-    color:#FFF;
-    font-family: "Lato",sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: -10px;
-    margin: 0;
-}
-.btn-shop{
-    background-color: #000000 !important;
-    font-family: "Lato",sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: -15px;
-}
-.de{
+.de
+{
     color: rgba(255, 255, 255, 0.7);
-        }
-@media screen and (max-width: 992px){
-    .img-responsive{
-        display: none;
-    }
-    .mdi-action-alarm{
-        font-size: 50px;
-    }
-    h2.texto{
-        font-size: 18px;
-    }
-    p.time-rest{
-        font-size: 11px;
-    }
-    #quedan{
-        font-size: 13px !important;
-        margin-top:15px;
-    }
-    h2.counter{
-        font-size: 35px;
-        margin-top: 10px !important;
-    }
-    h2.counter1{
-        font-size: 35px;
-        margin-top: 10px !important;
-    }
-    div.pre span{
-        font-size: 10px;
-        margin-right: 18px;
-    }
-    .btn-shop{
-        margin-top: -9px !important;
-    }
-    .ticket{
-        margin-top: 15px;
-    }
 }
-.inline-block{
+.inline-block
+{
     display:inline-block;
 }
-.block{
+.block
+{
     display: block;
 }

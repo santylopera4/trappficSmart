@@ -93,31 +93,27 @@
                         <div class="col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 boton">
                         <br>
                         <br><br><br>
-                        <button type="button" class="boton btn reservar btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-Reservar
-</button>
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="1" role="dialog" aria-labelledby="myModalLabel">
-<div class="modal-dialog" role="document">
-<div class="modal-content">
-<div class="modal-header">
-  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-  <h4 class="modal-title" id="myModalLabel">Tu reservación se ha inscrito</h4>
-</div>
-<div class="modal-body">
-Tu codigo de reservación <h4> # 000069 </h4> ha sido aprobado. Debes presentarlo al momento de tu ingreso    </div>
-<div class="modal-footer">
-  <button type="button" class="btn btn-default" data-dismiss="modal">Abandonar Reservación</button>
-  <button type="button" v-on:click="contador "class="btn btn-primary">Aceptar</button>
-</div>
-</div>
-</div>
-</div>
-                        </div>
-                        <br>
-
-
-                        
+                        <button type="button" class="boton btn reservar btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Reservar</button>
+                       
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" tabindex="1" role="dialog" aria-labelledby="myModalLabel">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Tu reservación se ha inscrito</h4>
+                              </div>
+                                <div class="modal-body">
+                                Tu codigo de reservación <h4> # 000069 </h4> ha sido aprobado. Debes presentarlo al momento de tu ingreso    </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Abandonar Reservación</button>
+                                    <button type="button" v-on:click="contador "class="btn btn-primary">Aceptar</button>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>                        
+                        <br>     
                 </div>
           </div> 
         <br>
@@ -129,7 +125,7 @@ Tu codigo de reservación <h4> # 000069 </h4> ha sido aprobado. Debes presentarl
 data: function () {
 return {
 contador: function () {
-  open('?cronometro', '', 'top=300,left=300,width=400,height=300');
+  open('./pages/crono2.html', '', 'top=300,left=300,width=400,height=300');
 }
 
 
