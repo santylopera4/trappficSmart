@@ -27,7 +27,7 @@ L.marker([6.459618, -75.560109], {draggable: false}).addTo(mymap)
 L.marker([6.459703,  -75.559063], {draggable: false}).addTo(mymap)
 .bindPopup('<a href="?infoparqueadero#Eltrebol">Parqueadero El Trebol</a>');
 L.marker([6.457687, -75.557655], {draggable: false}).addTo(mymap)
-.bindPopup('<a href="?infoparqueadero#Laplazuela">Parqueadero La Plazula</a>');
+.bindPopup('<a href="?infoparqueadero#Laplazuela">Parqueadero La Plazuela</a>');
 L.marker([6.458718, -75.559703], {draggable: false}).addTo(mymap)
 .bindPopup('<a href="?infoparqueadero#Laterminal">Parqueadero La Terminal</a>');
 L.marker([6.45891, -75.556737], {draggable: false}).addTo(mymap)
