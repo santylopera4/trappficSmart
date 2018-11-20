@@ -12,6 +12,8 @@
     height:100%;
     width:90px ;
     padding: 5px 5px;
+    position: relative;
+    bottom: 10px;
 } 
 img{
     align-content: center;
@@ -34,6 +36,8 @@ img{
   color: #262626;
   text-align: center;
   font-weight: bold;
+  position: relative;
+  bottom: 7px;
   
 }
 .col1 a h1:hover{
