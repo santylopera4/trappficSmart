@@ -1,7 +1,7 @@
 Vue.component('cre-ditos', {
     props: ['array', 'trapp_li_nav','trapp_header', 'icono', 'texto'],
     template:
-        `<div>
+        `<div> 
         <div>
             <trapp-header-pc :icono="trapp_header.icono" :texto="trapp_li_nav[2].texto"></trapp-header-pc> 
             <trapp-nav-mobile :trapp_li_nav="trapp_li_nav" ></trapp-nav-mobile>

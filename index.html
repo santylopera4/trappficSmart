@@ -105,36 +105,6 @@
         };
         firebase.initializeApp(config);
     
-        (function(){
-
-        const txtEmail = document.getElementById('txtEmail');
-        const txtpassword = document.getElementById('txtpassword');
-        const btnLogin = document.getElementById('btnLogin');
-        const btnSiginUp = document.getElementById('btnSiginUp');
-        const btnLogout = document.getElementById('btnLogout');
-
-        btnLogin.addEventListener('click', e => {
-
-            const email = txtEmail.value;
-            const pass = txtpassword.value;
-            const auth = firebase.auth();
-
-            const promise = auth.signInWithEmailAndPassword(email, pass);
-            alert("el correo se logeo bien");
-
-        });
-
-        btnSiginUp.addEventListener('click', e => {
-
-            const email = txtEmail.value;
-            const pass = txtpassword.value;
-            const auth = firebase.auth();
-
-            const promise = auth.createUserWithEmailAndPassword(email, pass);
-            promise.catch(e => console.log(e.message));
-        });
-
-        } ());
     </script>
 
         <script>
@@ -145,8 +115,6 @@
             }
         </script>
 
-    <script src="./pages/count.js"></script>
-
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
     <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
@@ -156,6 +124,8 @@
     <script src="./Libreries/bootstrap/js/bootstrap.min.js"></script>
     <script src="./globals/Strings.js"></script>
     <script src="./Libreries/Vue/vue.js"></script>
+    <script src="./pages/count.js"></script>
+    <script src="./pages/crono.js"></script>
     <script src="./pages/Creditos.js"></script>
     <script src="./pages/InfoParqueadero.js"></script>
     <script src="./pages/login.js"></script>

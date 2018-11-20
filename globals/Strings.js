@@ -74,7 +74,7 @@ var JsonTrapp =
         telefono:'',
         ubicacion:'Centro Comercial el Faro',
         cupos:
-        {
+        { 
           motos:'Motos: 20',
           carros:'Carros: 15 a 20'
         },
