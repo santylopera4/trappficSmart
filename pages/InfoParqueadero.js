@@ -142,7 +142,6 @@
                                   </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Abandonar Reservación</button>
-                                    <button type="button" v-on:click="contador "class="btn btn-primary">Aceptar</button>
                                   </div>
                               </div>
                             </div>
