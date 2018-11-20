@@ -2,13 +2,13 @@ Vue.component('cro-no', {
     props:[''],
     template:
     `<div>
-    <div id="flash_sales" style="background:rgb(0, 0, 0);">
+	<div id="flash_sales">
 		<div class="container">
 			<div class="col-xs-12">
 				<div class="col-md-5 col-xs-10">
 						<h2 class="texto">TIEMPO LIMITE</h2>
 						<h2 class="texto">PARA SU TICKET</h2>
-						<p class="time-rest" style="color:rgb(255, 255, 255)">LO ESTAMOS ESPERANDO</p>
+						<p class="time-rest">LO ESTAMOS ESPERANDO</p>
 				</div>
 				<div class="ticket col-md-3 col-xs-12" >
 				</div>
