@@ -153,12 +153,12 @@
     </div> 
 </div>
 </div>`,
-  data: function () {
+  /*data: function () {
     return {
       contador: function () {
         open('?cronometro', '', 'top=300,left=300,width=400,height=300');
       }
     }
-  }
+  }*/
 
 })  
