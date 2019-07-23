@@ -125,7 +125,7 @@
 data: function () {
 return {
 contador: function () {
-  open('./pages/crono2.html', '', 'top=300,left=300,width=400,height=300');
+  open('?cronometro', '', 'top=300,left=300,width=400,height=300');
 }
 
 

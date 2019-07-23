@@ -35,4 +35,5 @@ Vue.component('cro-no', {
 		</div>
 	</div>	
 	</div>`
+	
 })
