@@ -1,7 +1,10 @@
 ﻿Vue.component('info-parqueadero', {
   props: ['trapp_li_nav', 'info_parqueadero', 'trapp_header', 'icono', 'texto'],
+  mounted: function () {
+    getTime();
+  },
   template:
-  `<div> 
+    `<div> 
   <div>   
           <trapp-header-pc :icono="trapp_header.icono" :texto="trapp_li_nav[1].texto"></trapp-header-pc> 
 
@@ -50,7 +53,7 @@
 
                 <div class="cl2 col col-12 col-sm-6 col-md-12 col-lg-6 col-xl-6   infomacion">
                   
-                      <div class="row">
+                      <div class="row align-items-start">
 
                       <div class="col col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 par">
                       <h5><i class="fas fa-phone"></i>Teléfono</h5>
@@ -63,7 +66,7 @@
                       </div>
 
                       </div>
-                      <div class="row">
+                      <div class="row align-items-start">
                       <div class="col col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 par">        
                       <h5><strong>#</strong>Cupos</h5>
                       <p><span v-text="item.cupos.motos"></span><br>  <span v-text="item.cupos.carros"></span></p>
@@ -82,17 +85,16 @@
                       </div>
 
                       </div>
-                      <div class="row">
+                      <div class="row align-items-start">
 
-                      <div class="col col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 par">        
+                      <div class="colextra col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 par">        
                       <h5><strong> +</strong>Extras</h5>
                       <p v-text="item.extras"></p>
                       </div>
-
-                      </div class= "row">
+                      </div>
+                      <div class= "row">
                         <div class="col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 boton">
-                        <br>
-                        <br><br><br>
+                        
                         <button type="button" class="boton btn reservar btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Reservar</button>
                        
                         <!-- Modal -->
@@ -105,20 +107,49 @@
                               </div>
                                 <div class="modal-body">
                                 Tu codigo de reservación <h4> # 000069 </h4> ha sido aprobado. Debes presentarlo al momento de tu ingreso    </div>
-                                  <div class="modal-footer">
+                                <br>
+                                <div id="flash_sales" class="cronometro">
+                                    <div class="container">
+                                      <div class="row">
+                                        <div class="info col col-12 col-md-12 col-lg- ">
+                                            <h2 class="textocrono">TIEMPO   LIMITE</h2>
+                                            <h2 class="textocrono">PARA   SU   TICKET</h2>
+                                            <p class="time-rest">LO ESTAMOS   ESPERANDO</p>
+                                        </div>
+                                          <div class="ticket"></div>
+                                            <div class="reloj col col-12 col-md-12 col-lg-">
+                                              <p id="quedan" class="titulocrono time-rest">FALTAN :</p>
+                                                <div class="inline-block">
+                                                  <h2 class="counter1" id="dias">00</h2>
+                                                  <span class="pre block de">días</span>
+                                                </div>
+                                                <div class="inline-block">
+                                                  <h2 class="counter" id="horas">00</h2>
+                                                  <span class="pre block de">horas</span>
+                                                </div>
+                                                <div class="inline-block de">
+                                                  <h2 class="counter" id="min">00</h2>
+                                                  <span class="pre block">min</span>
+                                                </div>
+                                                <div class="inline-block de">
+                                                  <h2 class="counter" id="seg">00</h2>
+                                                  <span class="pre block">seg</span>
+                                                </div>
+                                            </div>
+                                          </div>	
+                                      </div>
+                                    </div>
+                                  </div>
+                                <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Abandonar Reservación</button>
-                                    <button type="button" v-on:click="contador "class="btn btn-primary">Aceptar</button>
                                   </div>
                               </div>
                             </div>
                           </div>
                         </div>                        
-                        <br>     
+                      </div>    
                 </div>
           </div> 
-        <br>
-        <br>
-        <br>
     </div> 
 </div>
 </div>`,

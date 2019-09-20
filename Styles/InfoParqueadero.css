@@ -14,7 +14,7 @@ header{
     color: #262626;
 }
 .infop{
-    overflow: auto;
+    overflow:hidden;
     background-color: rgba(0, 0, 0, 0.7);
 }
 .informacion{
@@ -71,9 +71,13 @@ p{
 .par{
     width: 100%;
     align-content: center;
-    margin: auto;
     font-size: 18px;
     color: #d3d3d2;
+}
+.colextra
+{
+    align-content: center;
+    margin: auto;
 }
 .reservar{
     margin: auto;

@@ -11,8 +11,9 @@
     height: 420px;
     padding: 80px 40px;
     box-sizing: border-box;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     margin: 320px auto;
+    outline: none;
 }
 .user
 {
@@ -77,7 +78,7 @@ h2
 }
 .loginBox input[type="submit"]:hover
 {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
     color: white;
 }
 .loginBox a

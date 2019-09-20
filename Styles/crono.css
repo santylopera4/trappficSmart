@@ -14,8 +14,7 @@ h2.textocrono
 }
 .cronometro
 {
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.6)
+    background-color: rgba(0, 0, 0, 1.0)
 }
 .info
 {    
@@ -25,6 +24,7 @@ h2.textocrono
 .reloj
 {
     padding-top: 50px;
+    padding-bottom: 20px;
 }
 .textocrono
 {
@@ -33,6 +33,7 @@ h2.textocrono
 }
 .pre
 {
+    align-content: center;
     text-align: center;
 }
 h2.counter1
@@ -76,4 +77,16 @@ h2.counter:before
 .block
 {
     display: block;
+}
+@media screen and (min-width: 1024px){
+    .reloj
+    {
+       padding-left: 85px;
+    }
+}
+@media screen and (min-width: 600px){
+    .reloj
+    {
+       padding-left: 85px;
+    }
 }
